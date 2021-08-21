@@ -107,8 +107,6 @@ public struct CellState
     public CellState Rotate() //=> 
                               //this.Rotate((CellDirection)(((int)direction + 1) % 4));
     {
-        Debug.Log($"bottom - {entrances[0]} | right - {entrances[1]} | top - {entrances[2]} | left - {entrances[3]} |");
-
         bool exchange = entrances[3];
         entrances[3] = entrances[2];
         entrances[2] = entrances[1];
