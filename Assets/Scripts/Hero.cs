@@ -15,6 +15,7 @@ public class Hero : MonoBehaviour
     public Text countText;
     private bool isMovingPaused;
     public Cell currentCell;
+    public Cell nextCell;
     //public Action<void> currentCellChanged;
 
     public void GetDamage(int _damage)
@@ -30,22 +31,33 @@ public class Hero : MonoBehaviour
         path = _path;
         field = FindObjectOfType<Field>();
         currentCell = _path[0];
+        if (_path.Count > 1)
+        {
+            nextCell = _path[1];
+        }
         this.transform.DOMove(_path[0].transform.position + new Vector3(0, 0, -1), speed / 4);
         StartCoroutine(Movement(_path));
     }
 
     public IEnumerator Movement(List<Cell> _path)
     {
-        while (_path.Count > 1)
+        while (_path.Count > 0)
         {
-            _path.RemoveAt(0);
+            yield return new WaitForSeconds(speed / 2);
             this.transform.DOMove(_path[0].transform.position + new Vector3(0, 0, -1), speed / 4);
-            yield return new WaitForSeconds(speed);
+            yield return new WaitForSeconds(speed / 2);
             currentCell = _path[0];
+
+            if (_path.Count > 1)
+            {
+                nextCell = _path[1];
+            }
+
             Field.instance.HeroCellChanged();
+            _path.RemoveAt(0);
         }
 
-        if (_path.Count == 1)
+        if (_path.Count == 0)
         {
             Field.instance.CheckForWin();
         }
@@ -75,7 +87,6 @@ public class Hero : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        count = 0;
         speed = 0.7f;
         path = new List<Cell>();
         //currentCellChanged += Field.instance.HeroCellChanged();

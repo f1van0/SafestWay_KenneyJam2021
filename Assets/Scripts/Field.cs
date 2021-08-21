@@ -51,6 +51,11 @@ public class Field : MonoBehaviour
         }
     }
 
+    public Hero GetHero()
+    {
+        return hero;
+    }
+
     public void CreateField(int _currentLevel)
     {
         XmlDocument levelsXml = new XmlDocument();
@@ -183,23 +188,28 @@ public class Field : MonoBehaviour
         hero.StopAllCoroutines();
         enemy.StopAllCoroutines();
         //Take places to fight
-        hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.25f, 0, -1), 0.4f);
-        enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(0.25f, 0, -1), 0.4f);
-        yield return new WaitForSeconds(0.5f);
+        hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.25f, 0, -1), 0.15f);
+        enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(0.25f, 0, -1), 0.15f);
+        yield return new WaitForSeconds(0.2f);
 
         //Enemy is attacking hero
         enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(0f, 0, -1), 0.1f);
         yield return new WaitForSeconds(0.1f);
-        enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.25f, 0, -1), 0.4f);
+        enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.25f, 0, -1), 0.2f);
+        yield return new WaitForSeconds(0.1f);
         //Hero took damage and started blinking 4 times
+        hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.3f, 0, -1), 0.2f);
         hero.GetDamage(enemy.enemyStats.count);
         for (int i = 0; i < 4; i++)
         {
+            hero.GetComponent<SpriteRenderer>().DOColor(Color.white, 0.05f);
+            yield return new WaitForSeconds(0.05f);
             hero.GetComponent<SpriteRenderer>().DOColor(Color.cyan, 0.05f);
-            hero.GetComponent<SpriteRenderer>().DOColor(Color.cyan, 0.05f);
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.05f);
         }
-        yield return new WaitForSeconds(0.1f);
+
+        enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(0.25f, 0, -1), 0.1f);
+        yield return new WaitForSeconds(0.2f);
 
         if (hero.count < 0)
         {
@@ -211,21 +221,27 @@ public class Field : MonoBehaviour
             //Hero is attacking enemy
             hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(0f, 0, -1), 0.1f);
             yield return new WaitForSeconds(0.1f);
-            hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.25f, 0, -1), 0.4f);
+            hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(0.25f, 0, -1), 0.2f);
+            yield return new WaitForSeconds(0.1f);
             //Hero took damage and started blinking 4 times
+            enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(0.3f, 0, -1), 0.2f);
             enemy.GetDamage(enemy.enemyStats.count);
             for (int i = 0; i < 4; i++)
             {
-                enemy.GetComponent<SpriteRenderer>().DOColor(Color.cyan, 0.05f);
+                enemy.GetComponent<SpriteRenderer>().DOColor(Color.white, 0.05f);
+                yield return new WaitForSeconds(0.05f);
                 enemy.GetComponent<SpriteRenderer>().DOColor(Color.red, 0.05f);
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(0.05f);
             }
-            yield return new WaitForSeconds(0.1f);
+
+            hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.25f, 0, -1), 0.1f);
+            yield return new WaitForSeconds(0.2f);
 
 
             var result = pathfinder.WaveFind(cells, hero.currentCell.position, Color.green);
             path = result.Item2;
             hero.StartCoroutine(hero.Movement(path));
+            Destroy(enemy);
         }
     }
                 /*

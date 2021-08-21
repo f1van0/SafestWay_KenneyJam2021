@@ -15220,27 +15220,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colored_transparent_574
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 197
-        width: 10
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf56f2c3eff5b2280800000000000000
-      internalID: -9067047879244290564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: colored_transparent_575
       rect:
         serializedVersion: 2
@@ -16213,7 +16192,7 @@ TextureImporter:
         x: 2
         y: 189
         width: 12
-        height: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -16651,10 +16630,10 @@ TextureImporter:
       name: colored_transparent_642
       rect:
         serializedVersion: 2
-        x: 444
-        y: 172
-        width: 12
-        height: 12
+        x: 443
+        y: 171
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -16664,27 +16643,6 @@ TextureImporter:
       bones: []
       spriteID: 64fb206996c0d4060800000000000000
       internalID: 6939216248475664198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: colored_transparent_643
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 177
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69b487ed5f93ada90800000000000000
-      internalID: -7288449318783530090
       vertices: []
       indices: 
       edges: []
@@ -17294,27 +17252,6 @@ TextureImporter:
       bones: []
       spriteID: 28252d7f3f4e99850800000000000000
       internalID: 6384385683260330626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: colored_transparent_673
-      rect:
-        serializedVersion: 2
-        x: 443
-        y: 171
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6d3d3b2baad4bc90800000000000000
-      internalID: -7154853479285179028
       vertices: []
       indices: 
       edges: []

@@ -48,18 +48,36 @@ public class Enemy : MonoBehaviour
 
     public void SetTargetPosition(Cell _currentCell)
     {
-        path = pathfinder.WaveFind(cells, enemyStats.position, _currentCell.position, Color.red).Item2;
+        if (path != null)
+        {
+            if (path.Contains(_currentCell) && path.IndexOf(_currentCell) < path.Count - 1)
+            {
+                path.RemoveAt(path.IndexOf(_currentCell) + 1);
+            }
+            else if (!path.Contains(_currentCell))
+            {
+                path.Add(_currentCell);
+            }
+        }
     }
 
     public IEnumerator Pursuiting()
     {
         while (path.Count > 1)
         {
-            path.RemoveAt(0);
-            this.transform.DOMove(path[0].transform.position + new Vector3(0, 0, -1), enemyStats.speed / 4);
-            yield return new WaitForSeconds(enemyStats.speed);
-            enemyStats.position = path[0].position;
-            Field.instance.CheckForAttack();
+            yield return new WaitForSeconds(enemyStats.speed / 2);
+            if (Field.instance.GetHero().nextCell == path[1])
+            {
+                yield return new WaitForSeconds(enemyStats.speed * 2f);
+            }
+            else
+            {
+                path.RemoveAt(0);
+                this.transform.DOMove(path[0].transform.position + new Vector3(0, 0, -1), enemyStats.speed / 4);
+                yield return new WaitForSeconds(enemyStats.speed/2);
+                enemyStats.position = path[0].position;
+                Field.instance.CheckForAttack();
+            }
         }
     }
 

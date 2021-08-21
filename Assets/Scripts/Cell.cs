@@ -11,6 +11,7 @@ public class Cell : MonoBehaviour
 
     private int debugDistance;
     public Text debugDistanceText;
+    public GameObject locked;
 
 
     public Cell(CellState _cellState)
@@ -28,9 +29,15 @@ public class Cell : MonoBehaviour
         cellState = _cellState;
         this.transform.rotation = Quaternion.Euler(0, 0, (int)cellState.Direction * 90);
         position = _position;
-        if (cellState.lockRotation == true)
+        if (cellState.lockRotation == true && cellState.Type != CellType.startPoint && cellState.Type != CellType.endPoint && cellState.Type != CellType.none)
         {
             this.GetComponent<SpriteRenderer>().color -= new Color(0.15f, 0.15f, 0.15f, 0f);
+            locked.transform.rotation = Quaternion.Euler(0, 0, ((int)cellState.Direction + 1) * 90);
+            locked.SetActive(true);
+        }
+        else
+        {
+            locked.SetActive(false);
         }
     }
 
