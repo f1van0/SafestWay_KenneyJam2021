@@ -324,7 +324,6 @@ public class Field : MonoBehaviour
                 // Start is called before the first frame update
     void Start()
     {
-        currentLevel = 1;
         path = new List<Cell>();
         pathfinder = new PathFinder();
         userInterface = FindObjectOfType<UserInterface>();

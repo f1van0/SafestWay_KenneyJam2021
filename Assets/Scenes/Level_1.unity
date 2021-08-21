@@ -3794,7 +3794,7 @@ MonoBehaviour:
   riverPrefab: {fileID: 4606120226444352619, guid: 688d73e17bafcb74a9a4439da57d48bc, type: 3}
   castleWallsPrefab: {fileID: 2946858763177425611, guid: 979a8fa1ffda2d442a87f7bbb2a1f555, type: 3}
   deathPrefab: {fileID: 2266750227297353268, guid: a1e7e89ed9848f04898c4837139e4cca, type: 3}
-  currentLevel: 3
+  currentLevel: 4
   enemies: []
 --- !u!4 &1711717473
 Transform:

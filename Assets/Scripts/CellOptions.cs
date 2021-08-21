@@ -95,9 +95,8 @@ public struct CellState
         for (int i = 0; i < temp.Length; i++)
             entrances[i] = temp[i];
         direction = lookupDirection;
-
-        Debug.Log($"bottom: {entrances[0]}  right: {entrances[1]}  top: {entrances[2]}  left: {entrances[3]}");
         */
+
 
         while (direction != lookupDirection)
         {
@@ -116,7 +115,9 @@ public struct CellState
         entrances[1] = entrances[0];
         entrances[0] = exchange;
         direction = (CellDirection)(((int)direction + 1) % 4);
-        
+
+        Debug.Log($"bottom: {entrances[0]}  right: {entrances[1]}  top: {entrances[2]}  left: {entrances[3]}");
+
         return this;
     }
 
