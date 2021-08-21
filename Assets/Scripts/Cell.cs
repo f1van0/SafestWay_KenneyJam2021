@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,10 +30,11 @@ public class Cell : MonoBehaviour
         cellState = _cellState;
         this.transform.rotation = Quaternion.Euler(0, 0, (int)cellState.Direction * 90);
         position = _position;
-        if (cellState.lockRotation == true && cellState.Type != CellType.startPoint && cellState.Type != CellType.endPoint && cellState.Type != CellType.none)
+        if (cellState.lockRotation == true && cellState.Type != CellType.startPoint && cellState.Type != CellType.endPoint && cellState.Type != CellType.none && cellState.Type != CellType.castleWalls && cellState.Type != CellType.river && cellState.Type != CellType.bridge)
         {
             this.GetComponent<SpriteRenderer>().color -= new Color(0.15f, 0.15f, 0.15f, 0f);
             locked.transform.rotation = Quaternion.Euler(0, 0, ((int)cellState.Direction + 1) * 90);
+            locked.transform.position += new Vector3(0, 0, -0.01f);
             locked.SetActive(true);
         }
         else
@@ -46,6 +48,7 @@ public class Cell : MonoBehaviour
         if (cellState.lockRotation == false)
         {
             cellState = cellState.Rotate();
+            SoundManager.instance.PlayRotate();
             this.transform.DORotate(new Vector3(0, 0, (int)cellState.Direction * 90), 0.1f, RotateMode.Fast);
         }
     }

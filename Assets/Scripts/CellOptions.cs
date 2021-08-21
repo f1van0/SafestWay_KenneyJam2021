@@ -10,13 +10,16 @@ using UnityEngine;
 public enum CellType
 {
     none = 0,
-    startPoint,
-    endPoint,
-    impasse,
-    line,
-    turn,
-    tRoad,
-    cross,
+    startPoint = 1,
+    endPoint = 2,
+    impasse = 3,
+    line = 4,
+    turn = 5,
+    tRoad = 6,
+    cross = 7,
+    bridge = 8,
+    river = 9,
+    castleWalls = 10
 }
 
 public enum CellDirection
@@ -47,7 +50,7 @@ public struct CellState
         }
         else
         {
-            if (Type == CellType.startPoint || Type == CellType.endPoint || Type == CellType.none)
+            if (Type == CellType.startPoint || Type == CellType.endPoint || Type == CellType.none || Type == CellType.castleWalls || Type == CellType.river)
                 lockRotation = true;
             else
                 lockRotation = false;
@@ -130,11 +133,14 @@ public struct CellState
             case CellType.cross: return new bool[] { true, true, true, true };
             case CellType.tRoad: return new bool[] { true, true, true, false };
             case CellType.line: return new bool[] { true, false, true, false };
+            case CellType.bridge: return new bool[] { true, false, true, false };
             case CellType.turn: return new bool[] { true, true, false, false };
             case CellType.none: return new bool[] { false, false, false, false };
             case CellType.startPoint:
             case CellType.endPoint:
             case CellType.impasse:
+            case CellType.castleWalls:
+            case CellType.river:
                 return new bool[] { true, false, false, false };
             default:
                 return null;

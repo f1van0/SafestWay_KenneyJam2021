@@ -45,6 +45,7 @@ public class Hero : MonoBehaviour
         {
             yield return new WaitForSeconds(speed / 2);
             this.transform.DOMove(_path[0].transform.position + new Vector3(0, 0, -1), speed / 4);
+            SoundManager.instance.PlayFootstep();
             yield return new WaitForSeconds(speed / 2);
             currentCell = _path[0];
 

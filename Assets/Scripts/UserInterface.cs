@@ -35,6 +35,23 @@ public class UserInterface : MonoBehaviour
         LosePanel.SetActive(true);
     }
 
+    public void ToNextLevel()
+    {
+        WinPanel.SetActive(false);
+        field.ToNextLevel();
+    }
+
+    public void Retry()
+    {
+        LosePanel.SetActive(false);
+        field.RestartLevel();
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
     // Start is called before the first frame update
     void Start()
     {

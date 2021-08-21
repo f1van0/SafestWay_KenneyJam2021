@@ -26,10 +26,17 @@ public class Field : MonoBehaviour
     public GameObject nonePrefab;
     public GameObject startPointPrefab;
     public GameObject endPointPrefab;
+    public GameObject bridgePrefab;
+    public GameObject riverPrefab;
+    public GameObject castleWallsPrefab;
+
+    public GameObject deathPrefab;
 
     public Cell[,] cells { get; private set; }
     private int sizeX;
     private int sizeY;
+
+    public int currentLevel;
 
     public List<Enemy> enemies;
     public List<Cell> path { get; private set; }
@@ -56,12 +63,16 @@ public class Field : MonoBehaviour
         return hero;
     }
 
-    public void CreateField(int _currentLevel)
+    public void CreateField()
     {
-        XmlDocument levelsXml = new XmlDocument();
-        levelsXml.Load("Assets\\scripts\\levels.xml");
+        //levelsXml.Load("Assets\\scripts\\levels.xml");
+        var xmlText = Resources.Load("LevelData/levels") as TextAsset;
+        var xmlReader = new StringReader(xmlText.text);
 
-        XmlNode fieldNode = levelsXml.DocumentElement.SelectSingleNode("/level1/field");
+        XmlDocument levelsXml = new XmlDocument();
+        levelsXml.Load(xmlReader);
+
+        XmlNode fieldNode = levelsXml.DocumentElement.SelectSingleNode($"/levels/level{currentLevel}/field");
         sizeX = Convert.ToInt32(fieldNode.Attributes["x"].InnerText);
         sizeY = Convert.ToInt32(fieldNode.Attributes["y"].InnerText);
         cells = new Cell[sizeX, sizeY];
@@ -69,13 +80,15 @@ public class Field : MonoBehaviour
         CellState cellState;
         heroPower = Convert.ToInt32(fieldNode.Attributes["power"].InnerText);
 
+        this.transform.position = new Vector3(0, 0, 0);
+
         //Создание поля
         for (int j = 0; j < sizeY; j++)
         {
             for (int i = 0; i < sizeX; i++)
             {
-                cellState = new CellState(levelsXml.DocumentElement.SelectSingleNode($"/level1/field/line{j + 1}/cell{i + 1}"));
-                GameObject currentCell = Instantiate(GetPrefabByType(cellState.Type), new Vector3(i - sizeX / 2, j - sizeX / 2, 0), new Quaternion(0, 0, 0, 0));
+                cellState = new CellState(levelsXml.DocumentElement.SelectSingleNode($"/levels/level{currentLevel}/field/line{j + 1}/cell{i + 1}"));
+                GameObject currentCell = Instantiate(GetPrefabByType(cellState.Type), new Vector3(i - sizeX / 2, j - sizeY / 2, 0), new Quaternion(0, 0, 0, 0));
                 //Debug.Log(currentCell.TryGetComponent<Cell>(out field[i, j]));
                 cells[i, j] = currentCell.GetComponent<Cell>();
                 cells[i, j].Initialize(cellState, new Vector2Int(i, j));
@@ -85,15 +98,56 @@ public class Field : MonoBehaviour
         }
 
         //Создание врагов на поле
-        int enemiesCount = Convert.ToInt32(levelsXml.DocumentElement.SelectSingleNode("/level1/enemies").Attributes["count"].InnerText);
+        int enemiesCount = Convert.ToInt32(levelsXml.DocumentElement.SelectSingleNode($"/levels/level{currentLevel}/enemies").Attributes["count"].InnerText);
         for (int i = 0; i < enemiesCount; i++)
         {
-            XmlNode enemyNode = levelsXml.DocumentElement.SelectSingleNode($"/level1/enemies/enemy{i + 1}");
+            XmlNode enemyNode = levelsXml.DocumentElement.SelectSingleNode($"/levels/level{currentLevel}/enemies/enemy{i + 1}");
             EnemyStats enemyStats = new EnemyStats(enemyNode);
             Enemy enemy = Instantiate(enemyPrefab, cells[enemyStats.position.x, enemyStats.position.y].gameObject.transform.position + new Vector3(0, 0, -1), new Quaternion(0, 0, 0, 0)).GetComponent<Enemy>();
             enemy.Initialize(enemyStats);
             enemies.Add(enemy);
         }
+    }
+
+    public void DestroyField()
+    {
+        for (int j = 0; j < sizeY; j++)
+        {
+            for (int i = 0; i < sizeX; i++)
+            {
+                Destroy(cells[i, j].gameObject);
+            }
+        }
+        cells = new Cell[0, 0];
+
+        foreach (Enemy enemy in enemies)
+        {
+            Destroy(enemy.gameObject);
+        }
+        enemies = new List<Enemy>();
+
+        Destroy(hero.gameObject);
+
+        //TODO: destroy decorative things!
+    }
+
+    public void ToNextLevel()
+    {
+        if (cells != null)
+            DestroyField();
+
+        currentLevel++;
+        CreateField();
+        isRotationAvailable = true;
+    }
+
+    public void RestartLevel()
+    {
+        if (cells != null)
+            DestroyField();
+
+        CreateField();
+        isRotationAvailable = true;
     }
 
     public GameObject GetPrefabByType(CellType _type)
@@ -114,6 +168,12 @@ public class Field : MonoBehaviour
                 return startPointPrefab;
             case CellType.endPoint:
                 return endPointPrefab;
+            case CellType.bridge:
+                return bridgePrefab;
+            case CellType.river:
+                return riverPrefab;
+            case CellType.castleWalls:
+                return castleWallsPrefab;
             default:
                 return nonePrefab;
         }
@@ -199,6 +259,7 @@ public class Field : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         //Hero took damage and started blinking 4 times
         hero.transform.DOMove(hero.currentCell.transform.position + new Vector3(-0.3f, 0, -1), 0.2f);
+        SoundManager.instance.PlayHit();
         hero.GetDamage(enemy.enemyStats.count);
         for (int i = 0; i < 4; i++)
         {
@@ -213,6 +274,9 @@ public class Field : MonoBehaviour
 
         if (hero.count < 0)
         {
+            Death deathEffect = Instantiate(hero.transform).GetComponent<Death>();
+            deathEffect.Initialize(Color.cyan);
+            SoundManager.instance.PlayLoseJingle();
             userInterface.Lose();
         }
 
@@ -225,6 +289,7 @@ public class Field : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             //Hero took damage and started blinking 4 times
             enemy.transform.DOMove(hero.currentCell.transform.position + new Vector3(0.3f, 0, -1), 0.2f);
+            SoundManager.instance.PlayHit();
             enemy.GetDamage(enemy.enemyStats.count);
             for (int i = 0; i < 4; i++)
             {
@@ -241,7 +306,11 @@ public class Field : MonoBehaviour
             var result = pathfinder.WaveFind(cells, hero.currentCell.position, Color.green);
             path = result.Item2;
             hero.StartCoroutine(hero.Movement(path));
-            Destroy(enemy);
+            Death deathEffect = Instantiate(deathPrefab, enemy.transform.position, new Quaternion(0, 0, 0, 0)).GetComponent<Death>();
+            deathEffect.transform.position = enemy.transform.position;
+            deathEffect.Initialize(Color.red);
+            enemies.Remove(enemy);
+            Destroy(enemy.gameObject);
         }
     }
                 /*
@@ -255,15 +324,17 @@ public class Field : MonoBehaviour
                 // Start is called before the first frame update
     void Start()
     {
+        currentLevel = 1;
         path = new List<Cell>();
         pathfinder = new PathFinder();
         userInterface = FindObjectOfType<UserInterface>();
         isRotationAvailable = true;
-        CreateField(1);
+        CreateField();
     }
 
     public void CheckForWin()
     {
+        SoundManager.instance.PlayWinJingle();
         userInterface.Win();
     }
 

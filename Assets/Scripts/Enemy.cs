@@ -75,6 +75,7 @@ public class Enemy : MonoBehaviour
                 path.RemoveAt(0);
                 this.transform.DOMove(path[0].transform.position + new Vector3(0, 0, -1), enemyStats.speed / 4);
                 yield return new WaitForSeconds(enemyStats.speed/2);
+                SoundManager.instance.PlayFootstep();
                 enemyStats.position = path[0].position;
                 Field.instance.CheckForAttack();
             }
