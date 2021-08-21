@@ -48,7 +48,7 @@ public class Enemy : MonoBehaviour
         pathfinder = new PathFinder();
     }
 
-    public void SetTargetPosition(Cell _currentCell)
+    public void SetTargetPosition(Cell[,] _cells, Cell _currentCell)
     {
         if (path != null)
         {
@@ -61,14 +61,16 @@ public class Enemy : MonoBehaviour
                 path.Add(_currentCell);
             }
         }
+
+        //var result = pathfinder.WaveFind(_cells, enemyStats.position, _currentCell.position, Color.red);
     }
 
     public IEnumerator Pursuiting()
     {
         while (path.Count > 1)
         {
-            yield return new WaitForSeconds(enemyStats.speed / 2);
-            if (Field.instance.GetHero().nextCell == path[1])
+            yield return new WaitForSeconds(enemyStats.speed / 1.5f);
+            if (Field.instance.GetHero().nextCell == path[0])
             {
                 yield return new WaitForSeconds(enemyStats.speed * 2f);
             }
@@ -87,7 +89,7 @@ public class Enemy : MonoBehaviour
     public void Pursuit(Cell[,] _cells, Cell _heroPos)
     {
         cells = _cells;
-        path = pathfinder.WaveFind(_cells, enemyStats.position, _heroPos.position, Color.red).Item2;
+        path = pathfinder.WaveFind(_cells, enemyStats.position, _heroPos.position).Item2;
         if (path.Count != 0)
         {
             StartCoroutine(Pursuiting());

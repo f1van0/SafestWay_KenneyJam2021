@@ -27,7 +27,71 @@ public class PathFinder
 
     public (bool, List<Cell>) WaveFind(Cell[,] _cells, Vector2Int _startPoint, Vector2Int _endPoint)
     {
-        return (WaveFind(_cells, _startPoint, new Vector2Int(-1, -1), Color.white));
+        (int distance, Cell cell)[,] dataCells = new (int, Cell)[_cells.GetLength(0), _cells.GetLength(1)];
+
+        for (int j = 0; j < _cells.GetLength(1); j++)
+        {
+            for (int i = 0; i < _cells.GetLength(0); i++)
+            {
+                dataCells[i, j].distance = -1;
+                dataCells[i, j].cell = _cells[i, j];
+            }
+        }
+
+        dataCells[_startPoint.x, _startPoint.y].distance = 0;
+
+        //dataCells[_startPoint.x, _startPoint.y].cell.ShowDebugDistance(dataCells[_startPoint.x, _startPoint.y].distance, _color);
+
+        bool whileNotFinished = true;
+        bool newCellsAvailable = true;
+
+        List<(int distance, Cell cell)> currentCells = TrySpreadWave(dataCells, _startPoint, Color.red);
+        List<(int distance, Cell cell)> nextCells;
+        Vector2Int endPointPosition = new Vector2Int(-1, -1);
+
+        while (whileNotFinished && newCellsAvailable)
+        {
+            nextCells = new List<(int distance, Cell cell)>();
+
+            foreach (var element in currentCells)
+            {
+                if (element.cell.position == _endPoint)
+                {
+                    whileNotFinished = false;
+                    endPointPosition = element.cell.position;
+                    break;
+                }
+                else
+                {
+                    nextCells.AddRange(TrySpreadWave(dataCells, element.cell.position, Color.red));
+                }
+            }
+
+            if (whileNotFinished == false)
+            {
+                break;
+            }
+
+            if (nextCells.Count != 0)
+            {
+                currentCells = nextCells;
+            }
+            else
+            {
+                newCellsAvailable = false;
+                break;
+            }
+        }
+
+        if (whileNotFinished == true)
+        {
+            return (false, new List<Cell>());
+        }
+        else
+        {
+            List<Cell> path = CreatePath(dataCells, endPointPosition);
+            return (true, path);
+        }
     }
 
     public (bool, List<Cell>) WaveFind(Cell[,] _cells, Vector2Int _startPoint, Vector2Int _endPoint, Color _color)

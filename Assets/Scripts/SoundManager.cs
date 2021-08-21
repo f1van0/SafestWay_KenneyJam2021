@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
-    public static AudioSource audioSource;
+    public AudioSource audioSource;
 
     public AudioClip WinJingle;
     public AudioClip LoseJingle;

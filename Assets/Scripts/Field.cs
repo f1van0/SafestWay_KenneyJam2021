@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Xml;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Field : MonoBehaviour
 {
@@ -82,6 +83,7 @@ public class Field : MonoBehaviour
 
         CellState cellState;
         heroPower = Convert.ToInt32(fieldNode.Attributes["power"].InnerText);
+        userInterface.ChangePowerText(heroPower);
 
         this.transform.position = new Vector3(0, 0, 0);
 
@@ -153,9 +155,16 @@ public class Field : MonoBehaviour
         if (cells != null)
             DestroyField();
 
-        currentLevel++;
-        CreateField();
-        isRotationAvailable = true;
+        if (currentLevel < 5)
+        {
+            currentLevel++;
+            CreateField();
+            isRotationAvailable = true;
+        }
+        else
+        {
+            SceneManager.LoadScene("FinalScene");
+        }
     }
 
     public void RestartLevel()
@@ -231,6 +240,7 @@ public class Field : MonoBehaviour
     {
         hero = Instantiate(heroPrefab, path[0].transform.position, new Quaternion(0, 0, 0, 0)).GetComponent<Hero>();
         hero.Initialize(heroPower, path);
+        
         foreach (var enemy in enemies)
         {
             enemy.Pursuit(cells, path[0]);
@@ -245,7 +255,7 @@ public class Field : MonoBehaviour
         CheckForAttack();
         foreach (var enemy in enemies)
         {
-            enemy.SetTargetPosition(hero.currentCell);
+            enemy.SetTargetPosition(cells, hero.currentCell);
         }
     }
 

@@ -226,7 +226,7 @@
     </field>
 
     <enemies count ="1">
-      <enemy1 count="8" x="3" y="2" lock="false" team="1"></enemy1>
+      <enemy1 count="8" x="3" y="2" lock="false" team="0"></enemy1>
     </enemies>
   </level5>
 

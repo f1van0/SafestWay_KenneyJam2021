@@ -21,6 +21,7 @@ public class Hero : MonoBehaviour
     public void GetDamage(int _damage)
     {
         count -= _damage;
+        UserInterface.instance.ChangePowerText(count);
         countText.text = count.ToString();
     }
 
