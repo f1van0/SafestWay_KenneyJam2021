@@ -1222,6 +1222,7 @@ GameObject:
   - component: {fileID: 466848716}
   - component: {fileID: 466848718}
   - component: {fileID: 466848717}
+  - component: {fileID: 466848719}
   m_Layer: 5
   m_Name: LevelCompletedText
   m_TagString: Untagged
@@ -1290,6 +1291,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466848715}
   m_CullTransparentMesh: 1
+--- !u!114 &466848719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466848715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0.53653413, b: 0, a: 0.5}
+  m_EffectDistance: {x: 2, y: 2}
+  m_UseGraphicAlpha: 0
 --- !u!4 &478179123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2946858763177425613, guid: 979a8fa1ffda2d442a87f7bbb2a1f555, type: 3}
@@ -2258,6 +2274,7 @@ GameObject:
   - component: {fileID: 806600762}
   - component: {fileID: 806600764}
   - component: {fileID: 806600763}
+  - component: {fileID: 806600765}
   m_Layer: 5
   m_Name: YouDiedText
   m_TagString: Untagged
@@ -2326,6 +2343,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806600761}
   m_CullTransparentMesh: 1
+--- !u!114 &806600765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806600761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.3301887, g: 0, b: 0.019358959, a: 0.5}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &814141064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2721,6 +2753,7 @@ GameObject:
   - component: {fileID: 1041703873}
   - component: {fileID: 1041703875}
   - component: {fileID: 1041703874}
+  - component: {fileID: 1041703876}
   m_Layer: 5
   m_Name: Count
   m_TagString: Untagged
@@ -2789,6 +2822,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041703872}
   m_CullTransparentMesh: 1
+--- !u!114 &1041703876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041703872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1043370822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4667,6 +4715,7 @@ GameObject:
   - component: {fileID: 2132146378}
   - component: {fileID: 2132146380}
   - component: {fileID: 2132146379}
+  - component: {fileID: 2132146381}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -4731,6 +4780,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132146377}
   m_CullTransparentMesh: 1
+--- !u!114 &2132146381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132146377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!4 &2138267728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2946858763177425613, guid: 979a8fa1ffda2d442a87f7bbb2a1f555, type: 3}
