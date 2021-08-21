@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<level1>
+  <field x="3" y="5" power="10">
+    <line1>
+      <cell1 type="1" direction="2"></cell1>
+      <cell2 type="0" direction="0"></cell2>
+      <cell3 type="0" direction="0"></cell3>
+    </line1>
+    
+    <line2>
+      <cell1 type="6" direction="3"></cell1>
+      <cell2 type="7" direction="0"></cell2>
+      <cell3 type="3" direction="0"></cell3>
+    </line2>
+
+    <line3>
+      <cell1 type="5" direction="3"></cell1>
+      <cell2 type="5" direction="3" lock="true"></cell2>
+      <cell3 type="0" direction="0"></cell3>
+    </line3>
+
+    <line4>
+      <cell1 type="5" direction="3"></cell1>
+      <cell2 type="4" direction="0"></cell2>
+      <cell3 type="5" direction="0"></cell3>
+    </line4>
+
+    <line5>
+      <cell1 type="0" direction="0"></cell1>
+      <cell2 type="0" direction="0"></cell2>
+      <cell3 type="2" direction="0"></cell3>
+    </line5>
+  </field>
+  
+  <enemies count ="1">
+    <enemy1 count="8" x="3" y="2" lock="false"></enemy1>
+  </enemies>
+</level1>
