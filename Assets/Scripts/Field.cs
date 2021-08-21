@@ -16,7 +16,10 @@ public class Field : MonoBehaviour
     private UserInterface userInterface;
 
     public GameObject heroPrefab;
-    public GameObject enemyPrefab;
+
+    public GameObject enemyPrefab1;
+    public GameObject enemyPrefab2;
+    public GameObject enemyPrefab3;
 
     public GameObject crossPrefab;
     public GameObject impassePrefab;
@@ -103,9 +106,23 @@ public class Field : MonoBehaviour
         {
             XmlNode enemyNode = levelsXml.DocumentElement.SelectSingleNode($"/levels/level{currentLevel}/enemies/enemy{i + 1}");
             EnemyStats enemyStats = new EnemyStats(enemyNode);
-            Enemy enemy = Instantiate(enemyPrefab, cells[enemyStats.position.x, enemyStats.position.y].gameObject.transform.position + new Vector3(0, 0, -1), new Quaternion(0, 0, 0, 0)).GetComponent<Enemy>();
+            
+            Enemy enemy = Instantiate(GetPrefabByTeam(enemyStats.team), cells[enemyStats.position.x, enemyStats.position.y].gameObject.transform.position + new Vector3(0, 0, -1), new Quaternion(0, 0, 0, 0)).GetComponent<Enemy>();
             enemy.Initialize(enemyStats);
             enemies.Add(enemy);
+        }
+    }
+
+    public GameObject GetPrefabByTeam(int team)
+    {
+        switch (team)
+        {
+            case 0:
+                return enemyPrefab1;
+            case 1:
+                return enemyPrefab2;
+            default:
+                return enemyPrefab3;
         }
     }
 
@@ -274,8 +291,8 @@ public class Field : MonoBehaviour
 
         if (hero.count < 0)
         {
-            Death deathEffect = Instantiate(hero.transform).GetComponent<Death>();
-            deathEffect.Initialize(Color.cyan);
+            //Death deathEffect = Instantiate(hero.transform).GetComponent<Death>();
+            //deathEffect.Initialize(Color.cyan);
             SoundManager.instance.PlayLoseJingle();
             userInterface.Lose();
         }

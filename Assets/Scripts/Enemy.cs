@@ -13,6 +13,7 @@ public struct EnemyStats
     public int count;
     public float speed;
     public Vector2Int position;
+    public int team;
 
     public EnemyStats(XmlNode _node)
     {
@@ -20,6 +21,7 @@ public struct EnemyStats
         count = Convert.ToInt32(_node.Attributes["count"].InnerText);
         position = new Vector2Int(Convert.ToInt32(_node.Attributes["x"].InnerText) - 1, Convert.ToInt32(_node.Attributes["y"].InnerText) - 1);
         lockMove = Convert.ToBoolean(_node.Attributes["lock"].InnerText);
+        team = Convert.ToInt32(_node.Attributes["team"].InnerText);
     }
 }
 
