@@ -86,6 +86,9 @@ public class Field : MonoBehaviour
             case 5:
                 userInterface.OpenTutorial5();
                 break;
+            case 6:
+                userInterface.OpenTutorial6();
+                break;
             default:
                 break;
         }
@@ -166,7 +169,11 @@ public class Field : MonoBehaviour
         }
         enemies = new List<Enemy>();
 
-        Destroy(hero.gameObject);
+        if (hero != null)
+        {
+            hero.StopAllCoroutines();
+            Destroy(hero.gameObject);
+        }
 
         //TODO: destroy decorative things!
     }
@@ -176,7 +183,7 @@ public class Field : MonoBehaviour
         if (cells != null)
             DestroyField();
 
-        if (currentLevel < 6)
+        if (currentLevel < 7)
         {
             currentLevel++;
             CreateField();
@@ -190,6 +197,13 @@ public class Field : MonoBehaviour
 
     public void RestartLevel()
     {
+        StopAllCoroutines();
+        if (enemies != null)
+            for (int i = 0; i < enemies.Count; i++)
+            {
+                enemies[i].StopAllCoroutines();
+            }
+
         if (cells != null)
             DestroyField();
 
@@ -495,6 +509,13 @@ public class Field : MonoBehaviour
 
     public void CheckForWin()
     {
+        StopAllCoroutines();
+        for (int i = 0; i < enemies.Count; i++)
+        {
+            enemies[i].StopAllCoroutines();
+        }
+        hero.StopAllCoroutines();
+
         SoundManager.instance.PlayWinJingle();
         userInterface.Win();
     }

@@ -24,6 +24,7 @@ public class UserInterface : MonoBehaviour
     public GameObject tutor3;
     public GameObject tutor4;
     public GameObject tutor5;
+    public GameObject tutor6;
 
     private void Awake()
     {
@@ -85,6 +86,12 @@ public class UserInterface : MonoBehaviour
         tutorPanel.SetActive(true);
     }
 
+    public void OpenTutorial6()
+    {
+        tutor6.SetActive(true);
+        tutorPanel.SetActive(true);
+    }
+
     public void ChangePowerText(int power)
     {
         powerText.text = power.ToString();
@@ -126,6 +133,7 @@ public class UserInterface : MonoBehaviour
         tutor3.SetActive(false);
         tutor4.SetActive(false);
         tutor5.SetActive(false);
+        tutor6.SetActive(false);
 
         isAudioOn = true;
         WinPanel.SetActive(false);
