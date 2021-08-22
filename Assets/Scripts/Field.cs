@@ -186,6 +186,12 @@ public class Field : MonoBehaviour
         if (currentLevel < 7)
         {
             currentLevel++;
+
+            if (currentLevel == 7)
+            {
+                Camera.main.orthographicSize = 5;
+            }
+
             CreateField();
             isRotationAvailable = true;
         }

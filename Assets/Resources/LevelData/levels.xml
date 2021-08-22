@@ -289,7 +289,7 @@
         <cell3 type="0" direction="0"></cell3>
         <cell4 type="10" direction="0"></cell4>
         <cell5 type="5" direction="0"></cell5>
-        <cell6 type="5" direction="0"></cell6>
+        <cell6 type="7" direction="0"></cell6>
         <cell7 type="5" direction="2" lock="true"></cell7>
         <cell8 type="10" direction="0"></cell8>
       </line1>
