@@ -16,6 +16,7 @@ public class Hero : MonoBehaviour
     private bool isMovingPaused;
     public Cell currentCell;
     public Cell nextCell;
+    public Color color;
     //public Action<void> currentCellChanged;
 
     public void GetDamage(int _damage)
@@ -30,6 +31,7 @@ public class Hero : MonoBehaviour
         count = _count;
         countText.text = _count.ToString();
         path = _path;
+        color = Color.cyan;
         field = FindObjectOfType<Field>();
         currentCell = _path[0];
         if (_path.Count > 1)
@@ -44,19 +46,26 @@ public class Hero : MonoBehaviour
     {
         while (_path.Count > 0)
         {
-            yield return new WaitForSeconds(speed / 2);
-            this.transform.DOMove(_path[0].transform.position + new Vector3(0, 0, -1), speed / 4);
-            SoundManager.instance.PlayFootstep();
-            yield return new WaitForSeconds(speed / 2);
-            currentCell = _path[0];
-
-            if (_path.Count > 1)
+            if (_path.Count > 1 && _path[0].isAttacking == true)
             {
-                nextCell = _path[1];
+                yield return new WaitForSeconds(0.3f);
             }
+            else
+            {
+                yield return new WaitForSeconds(speed / 2);
+                this.transform.DOMove(_path[0].transform.position + new Vector3(0, 0, -1), speed / 4);
+                SoundManager.instance.PlayFootstep();
+                yield return new WaitForSeconds(speed / 2);
+                currentCell = _path[0];
 
-            Field.instance.HeroCellChanged();
-            _path.RemoveAt(0);
+                if (_path.Count > 1)
+                {
+                    nextCell = _path[1];
+                }
+
+                Field.instance.HeroCellChanged();
+                _path.RemoveAt(0);
+            }
         }
 
         if (_path.Count == 0)

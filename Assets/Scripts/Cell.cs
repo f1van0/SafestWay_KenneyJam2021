@@ -14,6 +14,8 @@ public class Cell : MonoBehaviour
     public Text debugDistanceText;
     public GameObject locked;
 
+    public bool isAttacking;
+
 
     public Cell(CellState _cellState)
     {
@@ -30,6 +32,7 @@ public class Cell : MonoBehaviour
         cellState = _cellState;
         this.transform.rotation = Quaternion.Euler(0, 0, (int)cellState.Direction * 90);
         position = _position;
+        isAttacking = false;
         if (cellState.lockRotation == true && cellState.Type != CellType.startPoint && cellState.Type != CellType.endPoint && cellState.Type != CellType.none && cellState.Type != CellType.castleWalls && cellState.Type != CellType.river && cellState.Type != CellType.bridge)
         {
             this.GetComponent<SpriteRenderer>().color -= new Color(0.15f, 0.15f, 0.15f, 0f);
@@ -63,5 +66,6 @@ public class Cell : MonoBehaviour
     public void Start()
     {
         debugDistanceText = GetComponentInChildren<Text>();
+        isAttacking = false;
     }
 }

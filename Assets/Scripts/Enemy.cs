@@ -33,6 +33,8 @@ public class Enemy : MonoBehaviour
     PathFinder pathfinder;
     List<Cell> path;
     Cell[,] cells;
+    public bool isAttacking;
+    public Color color;
 
     public void GetDamage(int _damage)
     {
@@ -46,6 +48,8 @@ public class Enemy : MonoBehaviour
         countText = GetComponentInChildren<Text>();
         countText.text = enemyStats.count.ToString();
         pathfinder = new PathFinder();
+        isAttacking = false;
+        color = this.GetComponent<SpriteRenderer>().color;
     }
 
     public void SetTargetPosition(Cell[,] _cells, Cell _currentCell)
@@ -73,6 +77,10 @@ public class Enemy : MonoBehaviour
             if (Field.instance.GetHero().nextCell == path[0])
             {
                 yield return new WaitForSeconds(enemyStats.speed * 2f);
+            }
+            else if (path.Count > 2 && path[1].isAttacking == true)
+            {
+                yield return new WaitForSeconds(0.3f);
             }
             else
             {
