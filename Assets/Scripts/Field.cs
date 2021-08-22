@@ -83,6 +83,9 @@ public class Field : MonoBehaviour
             case 4:
                 userInterface.OpenTutorial4();
                 break;
+            case 5:
+                userInterface.OpenTutorial5();
+                break;
             default:
                 break;
         }

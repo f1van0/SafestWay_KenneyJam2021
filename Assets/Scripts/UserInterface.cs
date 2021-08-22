@@ -125,6 +125,7 @@ public class UserInterface : MonoBehaviour
         tutor2.SetActive(false);
         tutor3.SetActive(false);
         tutor4.SetActive(false);
+        tutor5.SetActive(false);
 
         isAudioOn = true;
         WinPanel.SetActive(false);

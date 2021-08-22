@@ -448,10 +448,14 @@ MonoBehaviour:
     I hope you enjoyed!
 
 
+    [!]   New content
+    will be added soon   [!]
+
+
     Author:
 
-    f1van
-    - idea, game design, ui/ux design, programming (f1van#2882)'
+    f1van - idea, game design, ui/ux
+    design, programming (f1van#2882)'
 --- !u!222 &1905789851
 CanvasRenderer:
   m_ObjectHideFlags: 0
