@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -5497726407938898631, guid: 422eaf15a0124444aa92238199f4234c, type: 3}
-  m_Color: {r: 1, g: 0.355, b: 0.121, a: 1}
+  m_Color: {r: 0.90790963, g: 0.12156862, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.8117648, g: 0.2784314, b: 0.08627451, a: 0.5}
+  m_EffectColor: {r: 0.9098039, g: 0.12156863, b: 1, a: 1}
   m_EffectDistance: {x: 15, y: 15}
   m_UseGraphicAlpha: 1
 --- !u!1 &4281549255345162870

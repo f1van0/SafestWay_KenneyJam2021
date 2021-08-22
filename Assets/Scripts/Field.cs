@@ -69,6 +69,24 @@ public class Field : MonoBehaviour
 
     public void CreateField()
     {
+        switch(currentLevel)
+        {
+            case 1:
+                userInterface.OpenTutorial1();
+                break;
+            case 2:
+                userInterface.OpenTutorial2();
+                break;
+            case 3:
+                userInterface.OpenTutorial3();
+                break;
+            case 4:
+                userInterface.OpenTutorial4();
+                break;
+            default:
+                break;
+        }
+
         //levelsXml.Load("Assets\\scripts\\levels.xml");
         var xmlText = Resources.Load("LevelData/levels") as TextAsset;
         var xmlReader = new StringReader(xmlText.text);

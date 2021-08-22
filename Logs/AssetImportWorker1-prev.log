@@ -1,0 +1,2592 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ru' Physical Memory: 40837 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\UnityEditor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54233
+Successfully changed project path to: C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021
+C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/UnityEditor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/UnityEditor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/UnityEditor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/UnityEditor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/UnityEditor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/UnityEditor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004378 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.941 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.759 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 2.545900 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.108100 ms MarkObjects: 2.069400 ms  DeleteObjects: 0.148000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_packed.asset
+  artifactKey: Guid(029e32df5772fbe4588c4edcc462ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_packed.asset using Guid(029e32df5772fbe4588c4edcc462ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3e811e4f5020f6e0c0d946a2267b8b') in 0.154445 seconds 
+  Import took 0.158782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.831904 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/New Palette.prefab
+  artifactKey: Guid(6a5865c5aa6381d4f901c316c2cd69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/New Palette.prefab using Guid(6a5865c5aa6381d4f901c316c2cd69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019d154a1e7f8218af4f6ac350a8bbb1') in 0.023370 seconds 
+  Import took 0.029658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.422025 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/New Palette.prefab
+  artifactKey: Guid(6a5865c5aa6381d4f901c316c2cd69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/New Palette.prefab using Guid(6a5865c5aa6381d4f901c316c2cd69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f33c1201bdf79ea253acb521671dfc') in 0.009071 seconds 
+  Import took 0.015138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.463513 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/safestway.prefab
+  artifactKey: Guid(71afc49f89e21bb4db1ee5cda85fdad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/safestway.prefab using Guid(71afc49f89e21bb4db1ee5cda85fdad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58df0afd78b28bba28de204516efb5ca') in 0.014344 seconds 
+  Import took 0.019761 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 2.668600 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.127600 ms MarkObjects: 2.007800 ms  DeleteObjects: 0.175000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 2.894300 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.430700 ms  DeleteObjects: 0.190800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.451 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 6.028900 ms (FindLiveObjects: 0.526800 ms CreateObjectMapping: 0.437900 ms MarkObjects: 4.878900 ms  DeleteObjects: 0.183300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.358 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 2.459500 ms (FindLiveObjects: 0.195500 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.032100 ms  DeleteObjects: 0.144600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 3.191300 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.724800 ms  DeleteObjects: 0.179600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6599.601919 seconds.
+  path: Assets/Audio/select_003_edited.ogg
+  artifactKey: Guid(f9dc99efaff34cc4fb049d23958cbb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/select_003_edited.ogg using Guid(f9dc99efaff34cc4fb049d23958cbb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9391c670131cf6a966f54669691b49') in 0.089029 seconds 
+  Import took 0.100429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.263743 seconds.
+  path: Assets/Audio/select_004_edited.ogg
+  artifactKey: Guid(c07a934931689e149a0a512533aa1efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/select_004_edited.ogg using Guid(c07a934931689e149a0a512533aa1efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69dac4bc48574fbbde17aaf25f18cf5') in 0.024524 seconds 
+  Import took 0.029174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.572507 seconds.
+  path: Assets/Audio/select_005_edited.ogg
+  artifactKey: Guid(9fad50586c916234082ca1d34749664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/select_005_edited.ogg using Guid(9fad50586c916234082ca1d34749664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a060e38b56ae22e03badbd8b09da433') in 0.037193 seconds 
+  Import took 0.048028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010536 seconds.
+  path: Assets/Audio/select_005_edited.ogg
+  artifactKey: Guid(9fad50586c916234082ca1d34749664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/select_005_edited.ogg using Guid(9fad50586c916234082ca1d34749664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a060e38b56ae22e03badbd8b09da433') in 0.023586 seconds 
+  Import took 0.030181 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 2.866900 ms (FindLiveObjects: 0.217600 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.437200 ms  DeleteObjects: 0.129200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.513133 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(3546d65b131514b449b8c62dea726afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(3546d65b131514b449b8c62dea726afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3a06dee8a2841518297d835c221beb') in 0.015001 seconds 
+  Import took 0.019760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 340.853489 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/colored_56.controller
+  artifactKey: Guid(7f372e4b878ba464cb6747cf2f8a5de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/colored_56.controller using Guid(7f372e4b878ba464cb6747cf2f8a5de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5a2100ea56119d99862820c33386e7') in 0.030374 seconds 
+  Import took 0.036246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.000472 seconds.
+  path: Assets/Sprites/pixel ui pack 9-Slice/Ancient/brown_inlay.png
+  artifactKey: Guid(07d4fa4f3746b5f4397fcfa077d344a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pixel ui pack 9-Slice/Ancient/brown_inlay.png using Guid(07d4fa4f3746b5f4397fcfa077d344a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44dc2f5a072f9cd47234d15fbfb30cc') in 0.114885 seconds 
+  Import took 0.119453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.128172 seconds.
+  path: Assets/Sprites/pixel ui pack 9-Slice/space.png
+  artifactKey: Guid(5ca1d120adc464b439f192d407c2c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pixel ui pack 9-Slice/space.png using Guid(5ca1d120adc464b439f192d407c2c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d543c175c897bf668f975e37902ad8b') in 0.018835 seconds 
+  Import took 0.024645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.393801 seconds.
+  path: Assets/Sprites/pixel ui pack 9-Slice/space.png
+  artifactKey: Guid(5ca1d120adc464b439f192d407c2c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pixel ui pack 9-Slice/space.png using Guid(5ca1d120adc464b439f192d407c2c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cc6c72e71f1e2ac374ecf950230f81') in 0.013778 seconds 
+  Import took 0.019055 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 2.584100 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.103500 ms  DeleteObjects: 0.169100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2591.
+Total: 3.634000 ms (FindLiveObjects: 0.249200 ms CreateObjectMapping: 0.093300 ms MarkObjects: 3.109200 ms  DeleteObjects: 0.180900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.643 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2596.
+Total: 3.246100 ms (FindLiveObjects: 0.231700 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.766900 ms  DeleteObjects: 0.137400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 2.688600 ms (FindLiveObjects: 0.207600 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.227600 ms  DeleteObjects: 0.167400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 2.475600 ms (FindLiveObjects: 0.200200 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.024900 ms  DeleteObjects: 0.168700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2608.
+Total: 2.672200 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.092700 ms  DeleteObjects: 0.233800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2612.
+Total: 2.953100 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.472100 ms  DeleteObjects: 0.155500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 4.021200 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.082200 ms MarkObjects: 3.568200 ms  DeleteObjects: 0.164000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2773.417110 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.032020 seconds 
+  Import took 0.037747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.006259 seconds 
+  Import took 0.012241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.688669 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fdc97d3887169bf86e95bd36561e72') in 0.011237 seconds 
+  Import took 0.019448 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.389 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2620.
+Total: 2.825100 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.095100 ms MarkObjects: 2.370900 ms  DeleteObjects: 0.139900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008042 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2624.
+Total: 2.830800 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.340200 ms  DeleteObjects: 0.161100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.570 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2628.
+Total: 3.118000 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.094100 ms MarkObjects: 2.584500 ms  DeleteObjects: 0.174400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 333.575520 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c879fa49a22a8ac3a1182f4b0584f274') in 0.038668 seconds 
+  Import took 0.043868 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 2.771200 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.292300 ms  DeleteObjects: 0.164200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 6.634800 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.960700 ms MarkObjects: 4.999200 ms  DeleteObjects: 0.318100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 151.221717 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b030ec3e2ee18ceaef172cdf4bc216cb') in 0.009758 seconds 
+  Import took 0.014889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041560 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b030ec3e2ee18ceaef172cdf4bc216cb') in 0.006234 seconds 
+  Import took 0.011317 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 3.330900 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.079900 ms MarkObjects: 2.882100 ms  DeleteObjects: 0.164800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.332935 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(327bcb801ebd7d44d8c9f0b5f6c145a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37a5364e56f2016fd6c1f008c2115cc') in 0.007446 seconds 
+  Import took 0.011209 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.440 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 2.869400 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.401900 ms  DeleteObjects: 0.167500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2648.
+Total: 2.763800 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.284000 ms  DeleteObjects: 0.169200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.02 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.494 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 2.884900 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.355500 ms  DeleteObjects: 0.183400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.0 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 3.271900 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.804900 ms  DeleteObjects: 0.157100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 3.234100 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.737900 ms  DeleteObjects: 0.196400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2660.
+Total: 2.486300 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.033500 ms  DeleteObjects: 0.125700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 2.800700 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.342900 ms  DeleteObjects: 0.164200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2668.
+Total: 2.714500 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.073300 ms MarkObjects: 2.291900 ms  DeleteObjects: 0.152500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4227.305905 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_0.asset
+  artifactKey: Guid(15e06f596f3ed104899d623f95cbdded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_0.asset using Guid(15e06f596f3ed104899d623f95cbdded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1508ec9da0e506045c02fed3a2b23fab') in 0.084977 seconds 
+  Import took 0.091268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_6.asset
+  artifactKey: Guid(504e74540ab53d449812e23a64c6f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_6.asset using Guid(504e74540ab53d449812e23a64c6f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ad9cbf854105625645d5468a11188d') in 0.022127 seconds 
+  Import took 0.026776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_867.asset
+  artifactKey: Guid(0ab40d0b020036f40973493d2a6ffdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_867.asset using Guid(0ab40d0b020036f40973493d2a6ffdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b201a7efbbeda0fe47e0aabb2e9a189') in 0.020996 seconds 
+  Import took 0.026073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_865.asset
+  artifactKey: Guid(f61120c25a35a3d45aebea98f04f26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_865.asset using Guid(f61120c25a35a3d45aebea98f04f26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc3d08d164b2bf5badf253d58811bdc') in 0.019603 seconds 
+  Import took 0.023516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_378.asset
+  artifactKey: Guid(ccc945f386560c14b801ff6a2b08d4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_378.asset using Guid(ccc945f386560c14b801ff6a2b08d4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17f2057b0815de2a65cb9954bbd5c9d') in 0.019144 seconds 
+  Import took 0.023112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_863.asset
+  artifactKey: Guid(10e600eaec2ae3a4cb6d0e147fbd08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_863.asset using Guid(10e600eaec2ae3a4cb6d0e147fbd08fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918c5814f8c3ce9cbfd3eca09fc7ac0e') in 0.020531 seconds 
+  Import took 0.024774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_9.asset
+  artifactKey: Guid(bdec9a6be82f2cf4ea47249f7a35c0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_9.asset using Guid(bdec9a6be82f2cf4ea47249f7a35c0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2e365705073d8d8e3516cc82ff24e3') in 0.022275 seconds 
+  Import took 0.027354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1019.asset
+  artifactKey: Guid(25986701bd3542f4e977101e673fa46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1019.asset using Guid(25986701bd3542f4e977101e673fa46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e56be718e38d2a36a833d4baa5b040') in 0.025068 seconds 
+  Import took 0.029424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_8.asset
+  artifactKey: Guid(00ca4ed68bf3f7d40a38223a052e39c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_8.asset using Guid(00ca4ed68bf3f7d40a38223a052e39c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b410fc1640dd5a533e270967d500a6a9') in 0.019434 seconds 
+  Import took 0.023676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_366.asset
+  artifactKey: Guid(bb9fe132e4947094aaff6bdda7e1b4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_366.asset using Guid(bb9fe132e4947094aaff6bdda7e1b4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990302bec6aa4379194630797179bb96') in 0.017212 seconds 
+  Import took 0.021475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_988.asset
+  artifactKey: Guid(ed4600f218a982840970ea8ae7a225b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_988.asset using Guid(ed4600f218a982840970ea8ae7a225b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b195c336c2a4925bd3e2e7ee97e92f6') in 0.015990 seconds 
+  Import took 0.020067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1023.asset
+  artifactKey: Guid(21e0fd0de1e4c19419eaa9ee3c6f977f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1023.asset using Guid(21e0fd0de1e4c19419eaa9ee3c6f977f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fce14addd1e6e9522a80693dd1fec2d') in 0.015746 seconds 
+  Import took 0.020855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1034.asset
+  artifactKey: Guid(462d896c150855e4f8cfff7ee8592f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1034.asset using Guid(462d896c150855e4f8cfff7ee8592f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7ef8983a3c6ab95606d4a65586cf02') in 0.019661 seconds 
+  Import took 0.024612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_369.asset
+  artifactKey: Guid(a5d818b3b02cca24b9acf81ed563712c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_369.asset using Guid(a5d818b3b02cca24b9acf81ed563712c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ea6ad7c1c6e6b9f914c167314cdaca') in 0.015532 seconds 
+  Import took 0.019450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_894.asset
+  artifactKey: Guid(d998b563ce5e80645aa44e2ad1abd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_894.asset using Guid(d998b563ce5e80645aa44e2ad1abd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c6c1e3b46d302199322c8ae2fb66af') in 0.014588 seconds 
+  Import took 0.018722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_860.asset
+  artifactKey: Guid(a921c56900b1a8f49bdf0252b86edf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_860.asset using Guid(a921c56900b1a8f49bdf0252b86edf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c897e00faa9ef503cea0ac59d3647d') in 0.016531 seconds 
+  Import took 0.020497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_392.asset
+  artifactKey: Guid(f3cc41ed186eb91479238dc82ba8b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_392.asset using Guid(f3cc41ed186eb91479238dc82ba8b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa873777f9b8188597accca32be28098') in 0.017059 seconds 
+  Import took 0.023013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_886.asset
+  artifactKey: Guid(a767760067a894b42978e01b54be0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_886.asset using Guid(a767760067a894b42978e01b54be0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07ff6a6350783f76eecec3957dd0635') in 0.016296 seconds 
+  Import took 0.021943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1025.asset
+  artifactKey: Guid(976eb008b87b8fc4293098ff2e8981dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1025.asset using Guid(976eb008b87b8fc4293098ff2e8981dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e633fb717ffa57a06714a7328dc6405') in 0.014130 seconds 
+  Import took 0.017950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_986.asset
+  artifactKey: Guid(c3c69e24192ee104990398975435b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_986.asset using Guid(c3c69e24192ee104990398975435b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8979f11b2f8136418562aeb119c913b9') in 0.018412 seconds 
+  Import took 0.023278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_359.asset
+  artifactKey: Guid(c971bfafe54f33f4ab8c8f9c98733de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_359.asset using Guid(c971bfafe54f33f4ab8c8f9c98733de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a982834c1ddd511307fd3689b2ce43cb') in 0.017174 seconds 
+  Import took 0.022454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_866.asset
+  artifactKey: Guid(21f790df6908288409e55df5dc912745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_866.asset using Guid(21f790df6908288409e55df5dc912745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0703db79fc97a9d04b35843ec8a9ed3') in 0.019681 seconds 
+  Import took 0.024066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_887.asset
+  artifactKey: Guid(397e9351b4d3ed64ab31ae8523cb4299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_887.asset using Guid(397e9351b4d3ed64ab31ae8523cb4299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bab04c665c798a793fa95f23551e897') in 0.014840 seconds 
+  Import took 0.019116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1033.asset
+  artifactKey: Guid(8a8bfb0528dbf794197d147f4e4c8da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1033.asset using Guid(8a8bfb0528dbf794197d147f4e4c8da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ddae8a58cc0e73e9f5491ee0094366') in 0.014857 seconds 
+  Import took 0.018662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_385.asset
+  artifactKey: Guid(1a1c47b8c02aaeb4492899f2d8c35f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_385.asset using Guid(1a1c47b8c02aaeb4492899f2d8c35f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58688373c34cd47998feaabd6e8ea1ed') in 0.016782 seconds 
+  Import took 0.021885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1.asset
+  artifactKey: Guid(1c20ad265e4e2b54d93204a5fbab0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1.asset using Guid(1c20ad265e4e2b54d93204a5fbab0d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2aeef2d603fdbd73f0c08654da177a') in 0.019259 seconds 
+  Import took 0.023540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_884.asset
+  artifactKey: Guid(15277304b4597b74981e5e55162d11a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_884.asset using Guid(15277304b4597b74981e5e55162d11a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c35281ab12cb525ec4452ef80ebfbe') in 0.015378 seconds 
+  Import took 0.019597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_883.asset
+  artifactKey: Guid(899c2a9ea618c564da4892d6de20a920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_883.asset using Guid(899c2a9ea618c564da4892d6de20a920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd9e92efb1cc76b6b985d90ad3b2d24') in 0.013443 seconds 
+  Import took 0.017969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1020.asset
+  artifactKey: Guid(0fa8c8074f642b24a926000f3423338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1020.asset using Guid(0fa8c8074f642b24a926000f3423338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9ac4d2f42b21d1714e1757bd97c31b') in 0.016505 seconds 
+  Import took 0.020385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1001.asset
+  artifactKey: Guid(814386dc96b0a35469926dba67b71c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1001.asset using Guid(814386dc96b0a35469926dba67b71c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39398e371b2f182c69f526e51494a130') in 0.017224 seconds 
+  Import took 0.022113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1012.asset
+  artifactKey: Guid(6b2124a9fef27754c8da754c56b995a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1012.asset using Guid(6b2124a9fef27754c8da754c56b995a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b984190526eed3769b428dc1c9d1bb77') in 0.017389 seconds 
+  Import took 0.022521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_874.asset
+  artifactKey: Guid(82debc639ec7c2c4eb71f3775bb97e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_874.asset using Guid(82debc639ec7c2c4eb71f3775bb97e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386c7360552e462f60ced094c1e68162') in 0.014114 seconds 
+  Import took 0.018293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_882.asset
+  artifactKey: Guid(20086ba6b9ce8f24db11e8347726df5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_882.asset using Guid(20086ba6b9ce8f24db11e8347726df5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f0273923b9a33af03f6acd7d598db1') in 0.014717 seconds 
+  Import took 0.018487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_360.asset
+  artifactKey: Guid(1f6a8bcbf0195aa49b8422bc0df10213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_360.asset using Guid(1f6a8bcbf0195aa49b8422bc0df10213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0806a222c43a19f3c8d30d2b949aff5') in 0.017777 seconds 
+  Import took 0.021791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_386.asset
+  artifactKey: Guid(257a98719c6bafb42999506e8edd449f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_386.asset using Guid(257a98719c6bafb42999506e8edd449f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716828dea409543bdb55260acc7ee7c9') in 0.019257 seconds 
+  Import took 0.023639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1026.asset
+  artifactKey: Guid(dc20df081c9990e48894c1dd020f1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1026.asset using Guid(dc20df081c9990e48894c1dd020f1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449a03bf37a66eda2f982eccccd28b3c') in 0.017295 seconds 
+  Import took 0.021038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_368.asset
+  artifactKey: Guid(a12823e2d78612542b782880932ed06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_368.asset using Guid(a12823e2d78612542b782880932ed06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd17451eb820565e07a85897ec643f91') in 0.017565 seconds 
+  Import took 0.021479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_891.asset
+  artifactKey: Guid(6509cd6ec92363d4da6935e8639365ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_891.asset using Guid(6509cd6ec92363d4da6935e8639365ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6374436f664be41521aa8d4b6f9f1d') in 0.024293 seconds 
+  Import took 0.028528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_885.asset
+  artifactKey: Guid(e38e23ed90bfddd48a36f29ef0410ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_885.asset using Guid(e38e23ed90bfddd48a36f29ef0410ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be3541ad1e72b8eb79c91d18ebcf0c') in 0.026589 seconds 
+  Import took 0.031392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_876.asset
+  artifactKey: Guid(d7a2ec1430060ab44a81fb7d35d9ec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_876.asset using Guid(d7a2ec1430060ab44a81fb7d35d9ec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578683ffcb57b685c4e017a666eadca6') in 0.014535 seconds 
+  Import took 0.018402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_14.asset
+  artifactKey: Guid(1cf2839aae49f5047bbd6c675cb13e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_14.asset using Guid(1cf2839aae49f5047bbd6c675cb13e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc9a7ce2330b9830228007ac277bb36') in 0.014043 seconds 
+  Import took 0.017783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1010.asset
+  artifactKey: Guid(0c7ed411d0618144298ce5df96453b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1010.asset using Guid(0c7ed411d0618144298ce5df96453b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73928e7da10a7c75c664ddba3d19bfa7') in 0.015693 seconds 
+  Import took 0.021587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1030.asset
+  artifactKey: Guid(fa378fd9fa5cc7f469a910a8cbe7f2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1030.asset using Guid(fa378fd9fa5cc7f469a910a8cbe7f2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862a1707314a02bbba51855494e14db3') in 0.018377 seconds 
+  Import took 0.023263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1005.asset
+  artifactKey: Guid(94d240d053c6a0e4f87def2d56edd009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1005.asset using Guid(94d240d053c6a0e4f87def2d56edd009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e510ae7c36bb2fb8b3ddb204d3201d93') in 0.015549 seconds 
+  Import took 0.020690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_2.asset
+  artifactKey: Guid(183ddcc03a2fd354ebb4cce74c3cc140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_2.asset using Guid(183ddcc03a2fd354ebb4cce74c3cc140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961823f61cb429e55a9e3fa43eb570bc') in 0.015737 seconds 
+  Import took 0.019914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1032.asset
+  artifactKey: Guid(f15c1287502efc540bf8a1f89f6e00e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1032.asset using Guid(f15c1287502efc540bf8a1f89f6e00e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9025ef720f1cbe089238cebf838509e') in 0.023117 seconds 
+  Import took 0.028885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_357.asset
+  artifactKey: Guid(7d0469765475fa14cadbb52c917ec0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_357.asset using Guid(7d0469765475fa14cadbb52c917ec0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734ccd618a8355dde7917a3eb294e297') in 0.023945 seconds 
+  Import took 0.030010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1004.asset
+  artifactKey: Guid(b71344dbf911e574aae92379f6b34f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1004.asset using Guid(b71344dbf911e574aae92379f6b34f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98bc5a88a459e8328a07f2018e43b37') in 0.014920 seconds 
+  Import took 0.018866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_880.asset
+  artifactKey: Guid(344ba25534aa87d4a851685e03fb5bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_880.asset using Guid(344ba25534aa87d4a851685e03fb5bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118df0697ea52b19f35457ddcdf7947d') in 0.013739 seconds 
+  Import took 0.017403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_992.asset
+  artifactKey: Guid(780bd96dfb31f764fb55e9c606684df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_992.asset using Guid(780bd96dfb31f764fb55e9c606684df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018d84660c2bcaf365683b1eee6526d1') in 0.025342 seconds 
+  Import took 0.029915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_379.asset
+  artifactKey: Guid(7395a0c9da91d444da270a54924459be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_379.asset using Guid(7395a0c9da91d444da270a54924459be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcce9f7b8b2db0c64191c2c6ae2d36be') in 0.022722 seconds 
+  Import took 0.027321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1000.asset
+  artifactKey: Guid(754a1caa07b638649b1cf0e781e9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1000.asset using Guid(754a1caa07b638649b1cf0e781e9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac82c2f77a0f58df5ce5810b6bc6a9a7') in 0.015293 seconds 
+  Import took 0.019133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1028.asset
+  artifactKey: Guid(594adb8fb7a09514884b87d8b0e72bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1028.asset using Guid(594adb8fb7a09514884b87d8b0e72bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b89bffb07236ae466546e236ed645c') in 0.014124 seconds 
+  Import took 0.017938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1035.asset
+  artifactKey: Guid(8a8f68ffc45c7714b899f1e6a3fd65e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1035.asset using Guid(8a8f68ffc45c7714b899f1e6a3fd65e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7f31742b13d508f3658a767fc5ad14') in 0.018633 seconds 
+  Import took 0.023710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1018.asset
+  artifactKey: Guid(ee2ae08daed74524f950ce7fed78628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1018.asset using Guid(ee2ae08daed74524f950ce7fed78628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d017125cde4abb7464491f34f7ffcb') in 0.024231 seconds 
+  Import took 0.029810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_374.asset
+  artifactKey: Guid(d889abed3b103464280a1c6882d78bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_374.asset using Guid(d889abed3b103464280a1c6882d78bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d868aa84b977029421c6b8ab681322') in 0.016861 seconds 
+  Import took 0.021907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1029.asset
+  artifactKey: Guid(56d1fdb591317be44baa5f900e6a31ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1029.asset using Guid(56d1fdb591317be44baa5f900e6a31ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a91e3652c5e47fc7e73460bc8724751') in 0.014556 seconds 
+  Import took 0.019051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_388.asset
+  artifactKey: Guid(626f111e2d9558f4591467677f0f05b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_388.asset using Guid(626f111e2d9558f4591467677f0f05b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93321cc1ab890fdc27bda416d0cc06b7') in 0.018215 seconds 
+  Import took 0.022602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_989.asset
+  artifactKey: Guid(63ab221ddf485814ba1dbad7e7a23c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_989.asset using Guid(63ab221ddf485814ba1dbad7e7a23c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea782476fe4233dae4b65eed3d510e8') in 0.025687 seconds 
+  Import took 0.029972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_383.asset
+  artifactKey: Guid(de750941fa89d7c45bbbc96fd53ae5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_383.asset using Guid(de750941fa89d7c45bbbc96fd53ae5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a3356c2dc3a42013c0d099f71c7a41') in 0.018669 seconds 
+  Import took 0.023305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_993.asset
+  artifactKey: Guid(0a01b666903c5b444b97c0aa958ac64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_993.asset using Guid(0a01b666903c5b444b97c0aa958ac64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b0c591fdd958daa33164f297c20403') in 0.015810 seconds 
+  Import took 0.020197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1007.asset
+  artifactKey: Guid(87903a1ec21130c4db5e56306bbe9498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1007.asset using Guid(87903a1ec21130c4db5e56306bbe9498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4c246a94d1e7edb430e68f35157129') in 0.017883 seconds 
+  Import took 0.022067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_879.asset
+  artifactKey: Guid(e9b0f822c9ce1bb47981d9379b56893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_879.asset using Guid(e9b0f822c9ce1bb47981d9379b56893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01d32a9a67cf1ddd4be057529ed61fd') in 0.019318 seconds 
+  Import took 0.024799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_367.asset
+  artifactKey: Guid(466ae8d29a5f6c946abb018192a47adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_367.asset using Guid(466ae8d29a5f6c946abb018192a47adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4defa179a3dcf1fc1b22c2124b88b9a9') in 0.017225 seconds 
+  Import took 0.021674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_10.asset
+  artifactKey: Guid(b4fff49ef3b17544ba095f1bcc79142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_10.asset using Guid(b4fff49ef3b17544ba095f1bcc79142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27cc58957818494525b8955450cc0d4') in 0.019500 seconds 
+  Import took 0.024264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_997.asset
+  artifactKey: Guid(cdb8918df5f627f49a19716ce158a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_997.asset using Guid(cdb8918df5f627f49a19716ce158a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe89b057602a8c1d19df601bbb707ae1') in 0.017989 seconds 
+  Import took 0.023146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_376.asset
+  artifactKey: Guid(624b23f9c1bf4f94f98a507ce262e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_376.asset using Guid(624b23f9c1bf4f94f98a507ce262e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7db0cc19cb42cab4aa6ad88a323f67b') in 0.020312 seconds 
+  Import took 0.024477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_896.asset
+  artifactKey: Guid(faabd3aab4184a54799f3cf73f8b52e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_896.asset using Guid(faabd3aab4184a54799f3cf73f8b52e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb889ea3d468f99fa287bb89bc11613') in 0.016217 seconds 
+  Import took 0.020363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1015.asset
+  artifactKey: Guid(5e10cbd1dfd71f94191783819db28e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1015.asset using Guid(5e10cbd1dfd71f94191783819db28e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b9513dc2bc087035c6ceb33dd14ded') in 0.020769 seconds 
+  Import took 0.024995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_998.asset
+  artifactKey: Guid(9100cee907f323b4881b02325c20cec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_998.asset using Guid(9100cee907f323b4881b02325c20cec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ec6ceb38d75db3fab3b1596a99a1c3') in 0.017380 seconds 
+  Import took 0.022219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1043.asset
+  artifactKey: Guid(9d7b2825a5366cf4c9083c18a426dd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1043.asset using Guid(9d7b2825a5366cf4c9083c18a426dd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0786c0aaba6bbe8ba2edfd957b31b9c2') in 0.018735 seconds 
+  Import took 0.024083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1046.asset
+  artifactKey: Guid(b54fd2d1c7358bc4a8029371ffd50c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1046.asset using Guid(b54fd2d1c7358bc4a8029371ffd50c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f6365e3bcb8b0badc0e776fe3d6ad1') in 0.016432 seconds 
+  Import took 0.021121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1051.asset
+  artifactKey: Guid(5f5dd46c5665ccc498e64d58ad8deefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1051.asset using Guid(5f5dd46c5665ccc498e64d58ad8deefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b198855cc9c8db3f25cf2229651604') in 0.014264 seconds 
+  Import took 0.018234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1044.asset
+  artifactKey: Guid(26de72049562bc646a722882b428ec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1044.asset using Guid(26de72049562bc646a722882b428ec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0296e0ae8ea80c60cbcb544966ea5ef2') in 0.019515 seconds 
+  Import took 0.024840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1055.asset
+  artifactKey: Guid(ef89d0c9f5208dd4280ea6709e6ad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1055.asset using Guid(ef89d0c9f5208dd4280ea6709e6ad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9359d74f6fab93c0ad1bfa202f7a6009') in 0.017615 seconds 
+  Import took 0.023855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1049.asset
+  artifactKey: Guid(b0f9d15a6d796a545b5b457c13680cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1049.asset using Guid(b0f9d15a6d796a545b5b457c13680cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6749cce2d65dd2236bb7d403c7d180cb') in 0.019249 seconds 
+  Import took 0.024240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1052.asset
+  artifactKey: Guid(5904a93fe07004e42950bb58bf030f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1052.asset using Guid(5904a93fe07004e42950bb58bf030f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b815aefae8c0ba803ab94b7ccb0b15c8') in 0.013997 seconds 
+  Import took 0.017935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1041.asset
+  artifactKey: Guid(5a018ea4e9ef78e4c89e29e1c6323321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1041.asset using Guid(5a018ea4e9ef78e4c89e29e1c6323321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b037dd607f85364151afd190ba6a7b15') in 0.015431 seconds 
+  Import took 0.020097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1047.asset
+  artifactKey: Guid(0594755ffb806324daa38a4fa32dd999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1047.asset using Guid(0594755ffb806324daa38a4fa32dd999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f27970d7463de79f59b26bf4ce493c') in 0.021743 seconds 
+  Import took 0.027249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_889.asset
+  artifactKey: Guid(987aa80b8e2d91a4fa295d5aac683ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_889.asset using Guid(987aa80b8e2d91a4fa295d5aac683ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77681a0708c36629c2bc6ff8051a3ad') in 0.020061 seconds 
+  Import took 0.024682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1008.asset
+  artifactKey: Guid(4195cded574246a4b848d5573563d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1008.asset using Guid(4195cded574246a4b848d5573563d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd73557a0597fd0b97153c4871aa315') in 0.018364 seconds 
+  Import took 0.023316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_361.asset
+  artifactKey: Guid(d4801a824e7b0e647870256d3e0eb8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_361.asset using Guid(d4801a824e7b0e647870256d3e0eb8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc4b2e9be4b17b8a70c7d58892cec4a') in 0.014847 seconds 
+  Import took 0.018518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_380.asset
+  artifactKey: Guid(ede29c71be49dd642964d323a69f57cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_380.asset using Guid(ede29c71be49dd642964d323a69f57cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f546444bdb9935196abe4e2bc4c76534') in 0.021180 seconds 
+  Import took 0.026984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_869.asset
+  artifactKey: Guid(cf8f59006cd77d54e9042beed702a4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_869.asset using Guid(cf8f59006cd77d54e9042beed702a4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd28381e45bf47e1a02e77745439bc57') in 0.018240 seconds 
+  Import took 0.022942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_391.asset
+  artifactKey: Guid(4559a4d00aaca554fb6fb5248f06f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_391.asset using Guid(4559a4d00aaca554fb6fb5248f06f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70820b7fb56614fd75c3bd7f73800a7a') in 0.015312 seconds 
+  Import took 0.019358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1037.asset
+  artifactKey: Guid(d9a1c8c31b8e61f4aa3fb59157dca2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1037.asset using Guid(d9a1c8c31b8e61f4aa3fb59157dca2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30e55d28ac3fa502f1a2fefcffb6569') in 0.013815 seconds 
+  Import took 0.018855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1054.asset
+  artifactKey: Guid(ec4d697d10af4b144a09d6ea4a60a8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1054.asset using Guid(ec4d697d10af4b144a09d6ea4a60a8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1bb3971bdeb87960eeffe5bb3395e9') in 0.021482 seconds 
+  Import took 0.025488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1038.asset
+  artifactKey: Guid(163b4221185753645badb5c1262d4868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1038.asset using Guid(163b4221185753645badb5c1262d4868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595dd1d3929b62a9996ea58318c6b034') in 0.022351 seconds 
+  Import took 0.027198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_4.asset
+  artifactKey: Guid(3f58ab5bfa52198419ba9256019ef105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_4.asset using Guid(3f58ab5bfa52198419ba9256019ef105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec717d8fd77cf3cc130aa26bf4cb38d') in 0.015372 seconds 
+  Import took 0.019503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_362.asset
+  artifactKey: Guid(4b62d446fc71e1745b203933d8e9f3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_362.asset using Guid(4b62d446fc71e1745b203933d8e9f3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87dccd442b960da596087021dcc11cb') in 0.015593 seconds 
+  Import took 0.019677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_365.asset
+  artifactKey: Guid(59a5075d28fc58244b19f8b28afad3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_365.asset using Guid(59a5075d28fc58244b19f8b28afad3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0ac3eb1499ad8c8c192af0f4d5608d') in 0.020703 seconds 
+  Import took 0.024682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_382.asset
+  artifactKey: Guid(45c2a6bdecf096245b846719e359f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_382.asset using Guid(45c2a6bdecf096245b846719e359f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1914ed2833514183b495caf035c9a64d') in 0.021895 seconds 
+  Import took 0.026504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_868.asset
+  artifactKey: Guid(f3e5896f53eb9a54b88f1b1c20b42c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_868.asset using Guid(f3e5896f53eb9a54b88f1b1c20b42c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b603eb9cf5d221ff37ac404602ff78a5') in 0.015278 seconds 
+  Import took 0.019078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_356.asset
+  artifactKey: Guid(6aadc715c3d60d44aa62c27330f2a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_356.asset using Guid(6aadc715c3d60d44aa62c27330f2a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedafc73edf320d4f48daddd05927299') in 0.017665 seconds 
+  Import took 0.022267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_375.asset
+  artifactKey: Guid(1b556a28b96931947965d6f644ccb0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_375.asset using Guid(1b556a28b96931947965d6f644ccb0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5d244c35a48a77f0a853505b756a5a') in 0.021132 seconds 
+  Import took 0.025587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1022.asset
+  artifactKey: Guid(431c079543997284c9ddb9c3d8814b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1022.asset using Guid(431c079543997284c9ddb9c3d8814b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c668348cce5e9657a0e71f07d7d856') in 0.019004 seconds 
+  Import took 0.024646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1011.asset
+  artifactKey: Guid(d6053fd258b2e3c4c8dce2e59b8d89d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1011.asset using Guid(d6053fd258b2e3c4c8dce2e59b8d89d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b737ff9be0964fb287a4d1887a8ad505') in 0.021163 seconds 
+  Import took 0.026108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1031.asset
+  artifactKey: Guid(aa876a205dd44b54e8a6cfba1b91927b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1031.asset using Guid(aa876a205dd44b54e8a6cfba1b91927b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a4c3e51c7b0d2525a013aef8e78b4a') in 0.013574 seconds 
+  Import took 0.018090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_384.asset
+  artifactKey: Guid(7c9d44884bb00cd44be243c7974b3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_384.asset using Guid(7c9d44884bb00cd44be243c7974b3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890c1af0e5a7d8e29b9aeba95d911831') in 0.020328 seconds 
+  Import took 0.024805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_991.asset
+  artifactKey: Guid(f9919772c170d584cbb882295edc7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_991.asset using Guid(f9919772c170d584cbb882295edc7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719177f6bdf3ba7baeef0129d5a80d88') in 0.017167 seconds 
+  Import took 0.021445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1040.asset
+  artifactKey: Guid(21e0c7fbf847ad94a932dc647958e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1040.asset using Guid(21e0c7fbf847ad94a932dc647958e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5fe3bb72662d9401dca30ea194b589') in 0.017989 seconds 
+  Import took 0.021941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_363.asset
+  artifactKey: Guid(a72c264ad5a0489429e69a7ef7258ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_363.asset using Guid(a72c264ad5a0489429e69a7ef7258ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc1fb0e2005a555799aa94f82fd6655') in 0.018732 seconds 
+  Import took 0.025416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1050.asset
+  artifactKey: Guid(7bbfa64598d6845418c44eea71083828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1050.asset using Guid(7bbfa64598d6845418c44eea71083828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80bfe52b2e1feb326c21cbbc3757ade') in 0.022928 seconds 
+  Import took 0.028276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1053.asset
+  artifactKey: Guid(7938d8e6435549344839e51522b3954d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1053.asset using Guid(7938d8e6435549344839e51522b3954d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe11c4e17ba7f71b3cfadc6407f8ac3') in 0.014692 seconds 
+  Import took 0.018503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_864.asset
+  artifactKey: Guid(75f563927bec5034399e8addff642a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_864.asset using Guid(75f563927bec5034399e8addff642a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee22039f880b3899c3fb093ffc2b695') in 0.017693 seconds 
+  Import took 0.022838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_861.asset
+  artifactKey: Guid(e4b171e4a501e03419dfd71eb5a567e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_861.asset using Guid(e4b171e4a501e03419dfd71eb5a567e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd2e8bac02e5875fbff4d8e0888ca49') in 0.023937 seconds 
+  Import took 0.028996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_890.asset
+  artifactKey: Guid(a61178b8c3781cd4b85c88ce679f659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_890.asset using Guid(a61178b8c3781cd4b85c88ce679f659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8dd11020a8f059efd4d247c45b1eea') in 0.016744 seconds 
+  Import took 0.021961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1042.asset
+  artifactKey: Guid(7d033fd3d79b60c4c92aa3c167dff230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1042.asset using Guid(7d033fd3d79b60c4c92aa3c167dff230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9cf0d333e3b11d52e2eda4021fe322') in 0.014335 seconds 
+  Import took 0.018130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_878.asset
+  artifactKey: Guid(d1a8026b10fa506439fc63a16ffebfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_878.asset using Guid(d1a8026b10fa506439fc63a16ffebfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338e01e3561c1efc738396ff99f61ebe') in 0.014619 seconds 
+  Import took 0.018326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1003.asset
+  artifactKey: Guid(2a000e4907655b340846f9d39c5ff4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1003.asset using Guid(2a000e4907655b340846f9d39c5ff4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7dd1add68c06e2aaf88c472301193c') in 0.017510 seconds 
+  Import took 0.021962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_999.asset
+  artifactKey: Guid(8dfaada8c77e3ee459c3c4f3f7312254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_999.asset using Guid(8dfaada8c77e3ee459c3c4f3f7312254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e34f701be5eef37c58e0ce2e0fe756') in 0.019766 seconds 
+  Import took 0.024333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_381.asset
+  artifactKey: Guid(dd8911bb64dfb0147840e81a2d01998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_381.asset using Guid(dd8911bb64dfb0147840e81a2d01998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb290a1143e42757124d41fd61c899c') in 0.014388 seconds 
+  Import took 0.018284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_995.asset
+  artifactKey: Guid(286756e3b4155e147be7e4c192847214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_995.asset using Guid(286756e3b4155e147be7e4c192847214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474b647adce70b9ee68940695d71f17') in 0.014403 seconds 
+  Import took 0.018960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_875.asset
+  artifactKey: Guid(2b2ae9bc91dfd8a4faaad89052f3a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_875.asset using Guid(2b2ae9bc91dfd8a4faaad89052f3a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb1dac7cf7702fa5a219ffb2d8ee4fa') in 0.017118 seconds 
+  Import took 0.021354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_387.asset
+  artifactKey: Guid(d313488512889264a94a5ea2fc5a0190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_387.asset using Guid(d313488512889264a94a5ea2fc5a0190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603cbcd9279d99a5a4fa172f1f76616e') in 0.018550 seconds 
+  Import took 0.024403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_12.asset
+  artifactKey: Guid(089900fd679e0794fb58fd4dcb4af8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_12.asset using Guid(089900fd679e0794fb58fd4dcb4af8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb21ecf9eb676a9166d61dae415e2f36') in 0.019262 seconds 
+  Import took 0.023871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1006.asset
+  artifactKey: Guid(f793965783bba25458344da13884908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1006.asset using Guid(f793965783bba25458344da13884908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa01a0504a74c261532c3ad3ed3cf9bd') in 0.016311 seconds 
+  Import took 0.025711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_373.asset
+  artifactKey: Guid(399d69c082449ff40b5b19ddf5bb2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_373.asset using Guid(399d69c082449ff40b5b19ddf5bb2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc9197ff2d7de53773250182d5bee24') in 0.022602 seconds 
+  Import took 0.027806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1021.asset
+  artifactKey: Guid(debf12c0c24a13c44b4bd0fb5bda5584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1021.asset using Guid(debf12c0c24a13c44b4bd0fb5bda5584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7079e96b15d98a635ab6e5bfa6fba09c') in 0.015412 seconds 
+  Import took 0.020112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_873.asset
+  artifactKey: Guid(0e6ed80af08d5e74a8e6cef2e6eb0da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_873.asset using Guid(0e6ed80af08d5e74a8e6cef2e6eb0da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5a74d38a3a2976e5c91a284f00f28a') in 0.017499 seconds 
+  Import took 0.021781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_389.asset
+  artifactKey: Guid(9c73ed1a0d04b5844ba95fe889d8eaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_389.asset using Guid(9c73ed1a0d04b5844ba95fe889d8eaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eee5d7a5b3d7e9ef416fa134a55f45') in 0.017446 seconds 
+  Import took 0.022039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1027.asset
+  artifactKey: Guid(fb528f6178f168245a17fec292778667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1027.asset using Guid(fb528f6178f168245a17fec292778667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ac8061b39973616216a66303ba0d2a') in 0.018244 seconds 
+  Import took 0.023424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1039.asset
+  artifactKey: Guid(e60f143cdfbcb6a4d8c5f651894eaef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1039.asset using Guid(e60f143cdfbcb6a4d8c5f651894eaef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaf49c4bd5c0677afdc83771339e888') in 0.016547 seconds 
+  Import took 0.020885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_872.asset
+  artifactKey: Guid(e5624e9e30a89d9409e1dcbd7581345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_872.asset using Guid(e5624e9e30a89d9409e1dcbd7581345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285ea84e37e327369ea5d0dd194c342d') in 0.015300 seconds 
+  Import took 0.019065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1048.asset
+  artifactKey: Guid(0a6c5c29ebc374744a06d6d2b6b7695f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1048.asset using Guid(0a6c5c29ebc374744a06d6d2b6b7695f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d6e88f4feacecc5e83b631c3cc2e7f') in 0.022452 seconds 
+  Import took 0.026467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_377.asset
+  artifactKey: Guid(46353b64a3f2b0942bd3a947408db107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_377.asset using Guid(46353b64a3f2b0942bd3a947408db107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61b164fa332004c22a0cfba78dd6649') in 0.018815 seconds 
+  Import took 0.022667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_987.asset
+  artifactKey: Guid(97c95728109a7a245bd24bdf653bf153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_987.asset using Guid(97c95728109a7a245bd24bdf653bf153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd67662bbd6c5d4abbd9f748dfd8c40') in 0.027259 seconds 
+  Import took 0.031135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_364.asset
+  artifactKey: Guid(742f835b9fa8b1a4e93e1869cc6fabb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_364.asset using Guid(742f835b9fa8b1a4e93e1869cc6fabb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed83809d4ebc0883a07a2d2fb8afb9d1') in 0.014895 seconds 
+  Import took 0.019389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_390.asset
+  artifactKey: Guid(9eb703a8d263464419ec9a8aa1483157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_390.asset using Guid(9eb703a8d263464419ec9a8aa1483157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47f15b1ad8cfb5641c99ae0fc50c2ca') in 0.019432 seconds 
+  Import took 0.024351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_358.asset
+  artifactKey: Guid(21d7fef83ac03a24ebc8fb6d425e7a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_358.asset using Guid(21d7fef83ac03a24ebc8fb6d425e7a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e559488d055177b651adccf81df694f') in 0.016330 seconds 
+  Import took 0.020819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_5.asset
+  artifactKey: Guid(4699eebe323cc914ab0deed720b19e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_5.asset using Guid(4699eebe323cc914ab0deed720b19e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c581fd0c342cffd807bc780217f1523') in 0.014417 seconds 
+  Import took 0.018265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_372.asset
+  artifactKey: Guid(21d54ad4460d6fc4ca143b8409b4fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_372.asset using Guid(21d54ad4460d6fc4ca143b8409b4fdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3091c2ed334949c2225989c69f882010') in 0.015332 seconds 
+  Import took 0.019407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_892.asset
+  artifactKey: Guid(d42f6e9e9e593664a8521841bd47edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_892.asset using Guid(d42f6e9e9e593664a8521841bd47edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aac3842c5cec7b03ded5059898bd73d') in 0.017735 seconds 
+  Import took 0.022919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_3.asset
+  artifactKey: Guid(51d12decfa2eb534eb2e7c544e4dd74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_3.asset using Guid(51d12decfa2eb534eb2e7c544e4dd74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554e99813988f7da9a39638582d17ed4') in 0.016507 seconds 
+  Import took 0.020931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1017.asset
+  artifactKey: Guid(4b69f0ef883c0264ea69cd4d5a023b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1017.asset using Guid(4b69f0ef883c0264ea69cd4d5a023b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f37a93a5680325f3728492e91ab93ad') in 0.015135 seconds 
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_7.asset
+  artifactKey: Guid(b6e9a837850328a4c91b054db22a1a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_7.asset using Guid(b6e9a837850328a4c91b054db22a1a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5766637bf51328a84da9195531c5c8a7') in 0.014708 seconds 
+  Import took 0.018564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_888.asset
+  artifactKey: Guid(947bcc0b6f3581345a2bba056b9d6a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_888.asset using Guid(947bcc0b6f3581345a2bba056b9d6a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b50681d63f0d4ff5b44aee1a2419dd3') in 0.020047 seconds 
+  Import took 0.024384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_893.asset
+  artifactKey: Guid(0313a8850bccd584a99a46f025ae706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_893.asset using Guid(0313a8850bccd584a99a46f025ae706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a936f5d946b3bdce165dd887bbe18b39') in 0.018521 seconds 
+  Import took 0.022717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_870.asset
+  artifactKey: Guid(9f3f38408128bb742b307b302d32d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_870.asset using Guid(9f3f38408128bb742b307b302d32d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f4b072287579ce61eb90816bfc61c7') in 0.014051 seconds 
+  Import took 0.018660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1014.asset
+  artifactKey: Guid(fc50c109eb9ee4d43a59421addbbe57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1014.asset using Guid(fc50c109eb9ee4d43a59421addbbe57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe2ff25abcb5d668c6bebd8b9b474f6') in 0.015009 seconds 
+  Import took 0.018902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_895.asset
+  artifactKey: Guid(f2b84a9a7b4d5ce409f214ac076ff61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_895.asset using Guid(f2b84a9a7b4d5ce409f214ac076ff61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e498cdbedfcb7a9f57b1c2e925bebb9e') in 0.018082 seconds 
+  Import took 0.022738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_994.asset
+  artifactKey: Guid(4a137ad4a92f14c4ab68c47ec69ac54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_994.asset using Guid(4a137ad4a92f14c4ab68c47ec69ac54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2d45c1988ac9db7fc9f2cf333b0389') in 0.019254 seconds 
+  Import took 0.023846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_13.asset
+  artifactKey: Guid(9f1624e65cc9b0140b7f979f66aa730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_13.asset using Guid(9f1624e65cc9b0140b7f979f66aa730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31270e419d70f05c111e211e93f4cbc0') in 0.014268 seconds 
+  Import took 0.018513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_996.asset
+  artifactKey: Guid(0b9afbcc8027708469aab7a6ad17d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_996.asset using Guid(0b9afbcc8027708469aab7a6ad17d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f174d1cadea4b124a905332fe9bdd1') in 0.014143 seconds 
+  Import took 0.017753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1045.asset
+  artifactKey: Guid(a60fbb823d1c8bb428dc9f76ee915f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1045.asset using Guid(a60fbb823d1c8bb428dc9f76ee915f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9f50ac8d6d10c3d9ee726008d3ff5e') in 0.019622 seconds 
+  Import took 0.023545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_990.asset
+  artifactKey: Guid(b4c1cd78e9d56174cac9f4a390c8b3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_990.asset using Guid(b4c1cd78e9d56174cac9f4a390c8b3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddb648b181d156655a795dd804a7593') in 0.019927 seconds 
+  Import took 0.024307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1013.asset
+  artifactKey: Guid(8719486a83285334ca81cf424f6e6218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1013.asset using Guid(8719486a83285334ca81cf424f6e6218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b753608d88045e5132f1c46f8c78ab') in 0.015866 seconds 
+  Import took 0.020716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_877.asset
+  artifactKey: Guid(7a812ce3084e8324eba72f2a18545faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_877.asset using Guid(7a812ce3084e8324eba72f2a18545faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6715cb8bda5adbad65fa78963e3c6477') in 0.017238 seconds 
+  Import took 0.021168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1009.asset
+  artifactKey: Guid(90cb97e499c52854c8779b341b2ce4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1009.asset using Guid(90cb97e499c52854c8779b341b2ce4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b06cf5c9c374be2d8575ea823a006a') in 0.018504 seconds 
+  Import took 0.024965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1024.asset
+  artifactKey: Guid(00495214b020f8145b224f708d757216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1024.asset using Guid(00495214b020f8145b224f708d757216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd855a618d6d4a30c80fb82a279c390f2') in 0.026621 seconds 
+  Import took 0.032460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1036.asset
+  artifactKey: Guid(90d71def66f49fc4dab47f50e920e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1036.asset using Guid(90d71def66f49fc4dab47f50e920e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb205462faeb513cb42c1a0dbb6231a') in 0.015030 seconds 
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1002.asset
+  artifactKey: Guid(445311897426c7e41846ff99b1d9af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1002.asset using Guid(445311897426c7e41846ff99b1d9af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da27034d571d5ab7e4c618db55a7637e') in 0.015511 seconds 
+  Import took 0.019425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1016.asset
+  artifactKey: Guid(928abde7d3ed7dc46b898ffd2c79b6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_1016.asset using Guid(928abde7d3ed7dc46b898ffd2c79b6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5c7c43fbb12066deb8a6c08c6dfcd3') in 0.019129 seconds 
+  Import took 0.025445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_871.asset
+  artifactKey: Guid(64e9ebf748d50144aa2c1453f0bb00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_871.asset using Guid(64e9ebf748d50144aa2c1453f0bb00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9ff36bcc63623a0b880938bd6041ba') in 0.031741 seconds 
+  Import took 0.036742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_862.asset
+  artifactKey: Guid(2418dd775a76e884a8de3637a9e74670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_862.asset using Guid(2418dd775a76e884a8de3637a9e74670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a98997d36b4df8d14e61db34379c3f0') in 0.016070 seconds 
+  Import took 0.020803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_371.asset
+  artifactKey: Guid(3173788964abd9c4da24eca3567162a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_371.asset using Guid(3173788964abd9c4da24eca3567162a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2386ccd8e0a1c570bc7815cae22f06') in 0.017917 seconds 
+  Import took 0.022316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_370.asset
+  artifactKey: Guid(9c89795a3748a784d99e0b80841ca476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_370.asset using Guid(9c89795a3748a784d99e0b80841ca476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dced95ee306e1e8d05d8db41347fb050') in 0.020243 seconds 
+  Import took 0.024391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_11.asset
+  artifactKey: Guid(5961a551d9dbe284d8b42af83f9480f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_11.asset using Guid(5961a551d9dbe284d8b42af83f9480f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2003891953ced3af1684f59a9337e76c') in 0.017126 seconds 
+  Import took 0.021014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_881.asset
+  artifactKey: Guid(b04aee46012a94e4fa8bd58e7512cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/main 1bitpack_kenney_1.1 +-+/Tilesheet/colored_881.asset using Guid(b04aee46012a94e4fa8bd58e7512cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4ce673725d5e96266c70a522a5f25f') in 0.020930 seconds 
+  Import took 0.025568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.616665 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2322b859c4c2ce6e7429963d121d77a') in 0.063633 seconds 
+  Import took 0.070388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.020588 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20786d3c653f81fab82d830d8547517e') in 0.045764 seconds 
+  Import took 0.054581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.964614 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32be5162f873ed02d7c58c1f780e2acb') in 0.035153 seconds 
+  Import took 0.045978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.016656 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e1e68934c86c32cbd2c779bb91d22c') in 0.042299 seconds 
+  Import took 0.049424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.567255 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd083d7c78d107a483d583268a5e9e6c') in 0.045496 seconds 
+  Import took 0.051193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.428728 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a8943f5d8c8f09f4d434a9ff1b7e53') in 0.043300 seconds 
+  Import took 0.048944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.419944 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a66aee3fae9fb5b10e1dcc125254149') in 0.049367 seconds 
+  Import took 0.054352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.885130 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae951be132085b3a9e6e3f95369efc1') in 0.049722 seconds 
+  Import took 0.057661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.115900 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8aa5d59d807830f234b8ebc0411bd0') in 0.038431 seconds 
+  Import took 0.055092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.686938 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48352fe1656285ec516ddfb29d7e9d8') in 0.043579 seconds 
+  Import took 0.050001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.035722 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0f373c7adbad5fb606f989f36f3af5') in 0.059560 seconds 
+  Import took 0.064477 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 3.165500 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.103000 ms MarkObjects: 2.650700 ms  DeleteObjects: 0.138600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.542010 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1542435e0cb63521de645ba51fb3e738') in 0.084237 seconds 
+  Import took 0.091905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.539428 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61654cb927caa66f664e4f2f8d5858f3') in 0.016078 seconds 
+  Import took 0.023834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.740597 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd6c698b30e5dea69850cf551065526') in 0.028132 seconds 
+  Import took 0.035348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.375468 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa032b6fba3a784161461d7f399e7c2') in 0.017988 seconds 
+  Import took 0.022606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031270 seconds.
+  path: Assets/Prefabs/cross.prefab
+  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa032b6fba3a784161461d7f399e7c2') in 0.020408 seconds 
+  Import took 0.025897 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 5.087200 ms (FindLiveObjects: 0.457800 ms CreateObjectMapping: 0.189200 ms MarkObjects: 4.110800 ms  DeleteObjects: 0.327200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

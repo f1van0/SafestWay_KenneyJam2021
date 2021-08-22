@@ -18,6 +18,13 @@ public class UserInterface : MonoBehaviour
     public Sprite AudioOn;
     public Sprite AudioOff;
 
+    public GameObject tutorPanel;
+    public GameObject tutor1;
+    public GameObject tutor2;
+    public GameObject tutor3;
+    public GameObject tutor4;
+    public GameObject tutor5;
+
     private void Awake()
     {
         if (instance != null)
@@ -46,6 +53,36 @@ public class UserInterface : MonoBehaviour
         }
         isAudioOn = !isAudioOn;
 
+    }
+
+    public void OpenTutorial1()
+    {
+        tutor1.SetActive(true);
+        tutorPanel.SetActive(true);
+    }
+
+    public void OpenTutorial2()
+    {
+        tutor2.SetActive(true);
+        tutorPanel.SetActive(true);
+    }
+
+    public void OpenTutorial3()
+    {
+        tutor3.SetActive(true);
+        tutorPanel.SetActive(true);
+    }
+
+    public void OpenTutorial4()
+    {
+        tutor4.SetActive(true);
+        tutorPanel.SetActive(true);
+    }
+
+    public void OpenTutorial5()
+    {
+        tutor5.SetActive(true);
+        tutorPanel.SetActive(true);
     }
 
     public void ChangePowerText(int power)
@@ -83,6 +120,12 @@ public class UserInterface : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        tutorPanel.SetActive(false);
+        tutor1.SetActive(false);
+        tutor2.SetActive(false);
+        tutor3.SetActive(false);
+        tutor4.SetActive(false);
+
         isAudioOn = true;
         WinPanel.SetActive(false);
         LosePanel.SetActive(false);
