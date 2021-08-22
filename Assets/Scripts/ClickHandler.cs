@@ -19,7 +19,7 @@ public class ClickHandler : MonoBehaviour
         {
             RaycastHit2D raycastHit = Physics2D.GetRayIntersection(Camera.main.ScreenPointToRay(Input.mousePosition));
             Cell _selectedCell;
-            if (raycastHit.transform != null && raycastHit.transform.gameObject.TryGetComponent<Cell>(out _selectedCell))
+            if (raycastHit.transform != null && raycastHit.transform.tag != "UI" && raycastHit.transform.gameObject.TryGetComponent<Cell>(out _selectedCell))
             {
                 field.Rotate(_selectedCell);
             }

@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public struct EnemyStats
 {
-    private bool lockMove;
+    public bool lockMove;
     public int count;
     public float speed;
     public Vector2Int position;
@@ -50,7 +50,7 @@ public class Enemy : MonoBehaviour
 
     public void SetTargetPosition(Cell[,] _cells, Cell _currentCell)
     {
-        if (path != null)
+        if (path != null && enemyStats.lockMove == true)
         {
             if (path.Contains(_currentCell) && path.IndexOf(_currentCell) < path.Count - 1)
             {
@@ -88,11 +88,14 @@ public class Enemy : MonoBehaviour
 
     public void Pursuit(Cell[,] _cells, Cell _heroPos)
     {
-        cells = _cells;
-        path = pathfinder.WaveFind(_cells, enemyStats.position, _heroPos.position).Item2;
-        if (path.Count != 0)
+        if (enemyStats.lockMove == false)
         {
-            StartCoroutine(Pursuiting());
+            cells = _cells;
+            path = pathfinder.WaveFind(_cells, enemyStats.position, _heroPos.position).Item2;
+            if (path.Count != 0)
+            {
+                StartCoroutine(Pursuiting());
+            }
         }
     }
 
