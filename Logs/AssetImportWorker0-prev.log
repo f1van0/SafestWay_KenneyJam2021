@@ -1,1318 +1,528 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ru' Physical Memory: 40837 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 15557 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
- COMMAND LINE ARGUMENTS:
-C:\UnityEditor\2020.3.12f1\Editor\Unity.exe
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021
+C:/Users/Ivan/Documents/GitHub/SafestWay_KenneyJam2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64541
-Successfully changed project path to: C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021
-C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.51 ms, found 3 plugins.
+52632
+Successfully changed project path to: C:/Users/Ivan/Documents/GitHub/SafestWay_KenneyJam2021
+C:/Users/Ivan/Documents/GitHub/SafestWay_KenneyJam2021
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19064] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 2242167648 [EditorId] 2242167648 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O6V64EV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19064] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 2242167648 [EditorId] 2242167648 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O6V64EV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 9.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.12f1 (b3b2c6512326)
-[Subsystems] Discovering subsystems at path C:/UnityEditor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/vanya/Documents/UnityProjects/SafetyWayKenneyJam2021/Assets
-GfxDevice: creating device client; threaded=0
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ivan/Documents/GitHub/SafestWay_KenneyJam2021/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
-    Vendor:   
-    VRAM:     2007 MB
-    Driver:   27.21.14.6611
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4584
 Initialize mono
-Mono path[0] = 'C:/UnityEditor/2020.3.12f1/Editor/Data/Managed'
-Mono path[1] = 'C:/UnityEditor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/UnityEditor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/UnityEditor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/UnityEditor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004644 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010002 seconds.
+- Loaded All Assemblies, in  0.351 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 292 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.785 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.011287 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.740 seconds
-Platform modules already initialized, skipping
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1013ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (404ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.682 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1435ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2542.
-Total: 4.634600 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.216200 ms MarkObjects: 3.895000 ms  DeleteObjects: 0.270200 ms)
+Unloading 2413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (57.8 KB). Loaded Objects now: 2887.
+Memory consumption went from 108.8 MB to 108.8 MB.
+Total: 4.339200 ms (FindLiveObjects: 0.373400 ms CreateObjectMapping: 0.205500 ms MarkObjects: 3.590700 ms  DeleteObjects: 0.167600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/topwall.prefab
-  artifactKey: Guid(340cb02736968b04e9fd22d64e701bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/topwall.prefab using Guid(340cb02736968b04e9fd22d64e701bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c8caebdc0d1532b24792fbb00fed26') in 0.228834 seconds 
-  Import took 0.235017 seconds .
-
+  Time since last request: 276346.193038 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_drop.png
+  artifactKey: Guid(06666aa9f4e99f54d8207d2f9f7ab313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_drop.png using Guid(06666aa9f4e99f54d8207d2f9f7ab313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c881f32cc1494069b43c0267b0049f53') in 0.099928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Prefabs/bridge.prefab
-  artifactKey: Guid(6a6ab33c0e09d314894c5a3021e1b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bridge.prefab using Guid(6a6ab33c0e09d314894c5a3021e1b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4249965d641f7c709e9d43803d562b') in 0.037007 seconds 
-  Import took 0.042528 seconds .
-
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_dots3.png
+  artifactKey: Guid(97a8599e30cc1514fbc28ba3890c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_dots3.png using Guid(97a8599e30cc1514fbc28ba3890c2dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b36e01725a7661bb7d17ef394740875') in 0.024175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Prefabs/enemy2.prefab
-  artifactKey: Guid(b8172613dc6d8474088f2dfcf9e5f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy2.prefab using Guid(b8172613dc6d8474088f2dfcf9e5f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e49d8bf9478156057c1371c37669302') in 0.040976 seconds 
-  Import took 0.047133 seconds .
-
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_laugh.png
+  artifactKey: Guid(53070c54f2bb4234080856b68b00739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_laugh.png using Guid(53070c54f2bb4234080856b68b00739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aaac70eba4e28d4e77d5c2154d142c') in 0.023727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Prefabs/wall.prefab
-  artifactKey: Guid(979a8fa1ffda2d442a87f7bbb2a1f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/wall.prefab using Guid(979a8fa1ffda2d442a87f7bbb2a1f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f40b5c126495937a6761d6eb15b60e') in 0.024067 seconds 
-  Import took 0.030280 seconds .
-
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_alert.png
+  artifactKey: Guid(650ba4d088923fd428a8ebdbefe61195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_alert.png using Guid(650ba4d088923fd428a8ebdbefe61195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153a95c3524db256944a3944f426924d') in 0.021827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Prefabs/impasse.prefab
-  artifactKey: Guid(ac1ec020da957ae49a7a4c587bd3e187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/impasse.prefab using Guid(ac1ec020da957ae49a7a4c587bd3e187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4a3cdf67959bb10eca159831b07604') in 0.026604 seconds 
-  Import took 0.033497 seconds .
-
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote__.png
+  artifactKey: Guid(fa15e97a2b8f2e241ad38f0fddea4425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote__.png using Guid(fa15e97a2b8f2e241ad38f0fddea4425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45c82b146b522e041fcb5e8b7c64f8f') in 0.022849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Prefabs/enemy1.prefab
-  artifactKey: Guid(5ece19bb8f67cc44583479896a547a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy1.prefab using Guid(5ece19bb8f67cc44583479896a547a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba85bc720896bd1699b40e42b036d900') in 0.026431 seconds 
-  Import took 0.031367 seconds .
-
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_music.png
+  artifactKey: Guid(76dcda829bba95b45bfc862ea549cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_music.png using Guid(76dcda829bba95b45bfc862ea549cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54856ba03ed9dbc0825f08366ca988b') in 0.024327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Prefabs/enemy3.prefab
-  artifactKey: Guid(1d6745523e339d44bbede79679ecac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy3.prefab using Guid(1d6745523e339d44bbede79679ecac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2e86b63a0ef9448d5ad591f23e67ad') in 0.025742 seconds 
-  Import took 0.031053 seconds .
-
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_dots2.png
+  artifactKey: Guid(bd682b3f916a2624e861b60c06ff048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_dots2.png using Guid(bd682b3f916a2624e861b60c06ff048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419357a1084089841c0e805e76231540') in 0.022495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Prefabs/hero.prefab
-  artifactKey: Guid(e88ca487ac16d7b4889bd25811913a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/hero.prefab using Guid(e88ca487ac16d7b4889bd25811913a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584f74e9f9879dab99bd2cb1859bd4ab') in 0.032857 seconds 
-  Import took 0.038699 seconds .
-
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1
+  artifactKey: Guid(700772b88b566204aa2a254bee2e41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1 using Guid(700772b88b566204aa2a254bee2e41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853a8bddb02895b57a3ef8df662953d6') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Prefabs/line.prefab
-  artifactKey: Guid(607efe351c0c63c4caa831912ff54a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/line.prefab using Guid(607efe351c0c63c4caa831912ff54a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b8465542e5a9deccdf843be29ed848') in 0.034075 seconds 
-  Import took 0.039466 seconds .
-
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_stars.png
+  artifactKey: Guid(93a706a5a81340c439cbb20b7f1a5286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_stars.png using Guid(93a706a5a81340c439cbb20b7f1a5286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b774bda08e7b812fc82ac6666dd069d5') in 0.024298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefabs/endPoint.prefab
-  artifactKey: Guid(1f1f8b94052973646a18c22f34542dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/endPoint.prefab using Guid(1f1f8b94052973646a18c22f34542dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97df63c6b2bffb389eecbeaec5f476ab') in 0.028107 seconds 
-  Import took 0.032738 seconds .
-
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_bars.png
+  artifactKey: Guid(13092a67ecb62bc4d8c248f31d1d7a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_bars.png using Guid(13092a67ecb62bc4d8c248f31d1d7a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06a0c68da860138a16880c174fe6881') in 0.023776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Prefabs/startPoint.prefab
-  artifactKey: Guid(3acd2b84bbfdca94893d8a94366c95e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/startPoint.prefab using Guid(3acd2b84bbfdca94893d8a94366c95e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d478c99cba9b60906755da69a50ca3') in 0.025753 seconds 
-  Import took 0.031013 seconds .
-
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_faceHappy.png
+  artifactKey: Guid(f4a6f7641d188f94f80db0b0b0e40073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_faceHappy.png using Guid(f4a6f7641d188f94f80db0b0b0e40073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c043d1a7c2c136fa15bafac3e886e613') in 0.024743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Prefabs/turn.prefab
-  artifactKey: Guid(979d3f0bf32d0754eb15f08d0c91f5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/turn.prefab using Guid(979d3f0bf32d0754eb15f08d0c91f5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f92033c7558ead7c7cd7f38f40cd5c') in 0.026219 seconds 
-  Import took 0.033002 seconds .
-
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_drops.png
+  artifactKey: Guid(7d29744fb157d4942bbc8ba3986ac014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_drops.png using Guid(7d29744fb157d4942bbc8ba3986ac014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91340e5edaf7c706f12fbc7daa62d86') in 0.022660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefabs/cross.prefab
-  artifactKey: Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cross.prefab using Guid(203285ebf54563748943346fc7167a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b11f1bedda56c6acf5170058067ccae') in 0.024226 seconds 
-  Import took 0.028999 seconds .
-
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_heart.png
+  artifactKey: Guid(250e42dadc3d04c48b27fc7e85e0f4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_heart.png using Guid(250e42dadc3d04c48b27fc7e85e0f4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9ae2bd9f364a422fbfc71f3d20634d') in 0.019598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Prefabs/none0.prefab
-  artifactKey: Guid(2ccb4dcea53297c4fbf8abb39b1909a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/none0.prefab using Guid(2ccb4dcea53297c4fbf8abb39b1909a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db289b1a08b1fbac1c9dbe2b0b938713') in 0.027928 seconds 
-  Import took 0.033478 seconds .
-
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_star.png
+  artifactKey: Guid(895216bf33b97624ab8734cdb0bb3264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_star.png using Guid(895216bf33b97624ab8734cdb0bb3264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f36e76c2b081906b54b7d463946aafb') in 0.019952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Prefabs/river.prefab
-  artifactKey: Guid(688d73e17bafcb74a9a4439da57d48bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/river.prefab using Guid(688d73e17bafcb74a9a4439da57d48bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823b7a23dff4cfe898efc0706f466b2f') in 0.029446 seconds 
-  Import took 0.039139 seconds .
-
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2
+  artifactKey: Guid(b3c2febf9c112004292b74059fa63652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2 using Guid(b3c2febf9c112004292b74059fa63652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d87d6c635c0710b8695063eb1c07bca') in 0.000583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Prefabs/door.prefab
-  artifactKey: Guid(a50f9e540522eaa449d5d63a0d91bebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/door.prefab using Guid(a50f9e540522eaa449d5d63a0d91bebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdc8bd4d9dac465839a29a7e8de47e8') in 0.023898 seconds 
-  Import took 0.029599 seconds .
-
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_faceAngry.png
+  artifactKey: Guid(e4c0bfd39a00db942ba187ae0c6be135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_faceAngry.png using Guid(e4c0bfd39a00db942ba187ae0c6be135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff737d0647beee43696dc4d95259beb') in 0.023100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Prefabs/t-road.prefab
-  artifactKey: Guid(fd04e166a09c1cc42bdcbbfef71a47d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/t-road.prefab using Guid(fd04e166a09c1cc42bdcbbfef71a47d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb62b5dba89c2bbeb9e8c5646fdf342') in 0.023677 seconds 
-  Import took 0.029303 seconds .
-
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_anger.png
+  artifactKey: Guid(9fce1abcca3a26447934a33ebf9fda60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_anger.png using Guid(9fce1abcca3a26447934a33ebf9fda60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6747ebeba75150e33414bcc51060ee7') in 0.021643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008611 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.358 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.1 MB.
-System memory in use after: 99.0 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2553.
-Total: 3.194200 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.117700 ms MarkObjects: 2.707200 ms  DeleteObjects: 0.181300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_circle.png
+  artifactKey: Guid(a5c8dc3f6ad9dc746804b81a36601674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 1/emote_circle.png using Guid(a5c8dc3f6ad9dc746804b81a36601674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8c999778c654ed353d2b507d5dabf2') in 0.023988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008865 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.541 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.1 MB.
-System memory in use after: 99.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2557.
-Total: 2.831600 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.364800 ms  DeleteObjects: 0.175000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_alert.png
+  artifactKey: Guid(b5bed4de8dbdeb747ae9179c9d7453b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_alert.png using Guid(b5bed4de8dbdeb747ae9179c9d7453b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396cc43347005a73a6b9532339c01a60') in 0.021322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009475 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.431 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.1 MB.
-System memory in use after: 99.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2561.
-Total: 3.346600 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.176000 ms MarkObjects: 2.735100 ms  DeleteObjects: 0.138300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_bars.png
+  artifactKey: Guid(14fe549f7f92ac64693c634c9efe064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_bars.png using Guid(14fe549f7f92ac64693c634c9efe064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a39c88442d2eeac223071eed2f6740') in 0.020430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011871 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2565.
-Total: 3.814200 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.092600 ms MarkObjects: 3.308000 ms  DeleteObjects: 0.163300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_circle.png
+  artifactKey: Guid(fbbcdaa2d03f50947bcc502edb59f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_circle.png using Guid(fbbcdaa2d03f50947bcc502edb59f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e24640610ffff09ad30e51994048b6e') in 0.019641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011638 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.393 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2569.
-Total: 2.630500 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.168500 ms  DeleteObjects: 0.175900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_drop.png
+  artifactKey: Guid(e4c1ed53cd1e9f34aa905989dc22cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_drop.png using Guid(e4c1ed53cd1e9f34aa905989dc22cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c967b137349ba04060bd5d87525427b') in 0.018904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.241 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 4.435600 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.096000 ms MarkObjects: 3.907900 ms  DeleteObjects: 0.172000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_dots3.png
+  artifactKey: Guid(dccb68f65ecdb454091dfe4188910ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_dots3.png using Guid(dccb68f65ecdb454091dfe4188910ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b24b24bbbc9ee4572acbdc9e317696d') in 0.019394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.1 MB.
-System memory in use after: 58.1 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 3.295100 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.823600 ms  DeleteObjects: 0.135400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_faceAngry.png
+  artifactKey: Guid(c939cc33ddf552b43a7236427c153a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_faceAngry.png using Guid(c939cc33ddf552b43a7236427c153a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0c98789369d790bb167eab09337760') in 0.020944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009775 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.495 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2577.
-Total: 3.841400 ms (FindLiveObjects: 0.221200 ms CreateObjectMapping: 0.087400 ms MarkObjects: 3.397600 ms  DeleteObjects: 0.133900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_exclamations.png
+  artifactKey: Guid(188ca11a8a83e29429f33e5a242c09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_exclamations.png using Guid(188ca11a8a83e29429f33e5a242c09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fd16d893e010494feb311bddac4e62') in 0.019135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010018 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 2.995500 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.528300 ms  DeleteObjects: 0.157700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_music.png
+  artifactKey: Guid(d230b9b2e171dc048aa64924de31dcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_music.png using Guid(d230b9b2e171dc048aa64924de31dcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d28145a23f02903df6e41f392736397') in 0.019415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009719 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.508 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 2.446600 ms (FindLiveObjects: 0.213100 ms CreateObjectMapping: 0.094300 ms MarkObjects: 1.981400 ms  DeleteObjects: 0.156800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_heartBroken.png
+  artifactKey: Guid(ad9273d8ae05f5b43842a8c372f55654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_heartBroken.png using Guid(ad9273d8ae05f5b43842a8c372f55654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb86068050709a0a4f26505e0e8bd912') in 0.028392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009625 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.421 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2589.
-Total: 2.978000 ms (FindLiveObjects: 0.209100 ms CreateObjectMapping: 0.139300 ms MarkObjects: 2.467300 ms  DeleteObjects: 0.160800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_stars.png
+  artifactKey: Guid(33fa93a441eaa6f439f002e1922364b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_stars.png using Guid(33fa93a441eaa6f439f002e1922364b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c3a7b3d21c9c9546da4deaf8e95e9b') in 0.021785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009026 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.497 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2593.
-Total: 3.113000 ms (FindLiveObjects: 0.302100 ms CreateObjectMapping: 0.120200 ms MarkObjects: 2.495100 ms  DeleteObjects: 0.194500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_laugh.png
+  artifactKey: Guid(bc8f5cc751d7df74bbf4fa049dafbd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_laugh.png using Guid(bc8f5cc751d7df74bbf4fa049dafbd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7567a749de08b329b998f728755269') in 0.023044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.030148 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.142 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2597.
-Total: 6.036100 ms (FindLiveObjects: 0.650700 ms CreateObjectMapping: 0.570300 ms MarkObjects: 4.589000 ms  DeleteObjects: 0.224000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_hearts.png
+  artifactKey: Guid(49a09e4272810a84fa6a3a31f78fb844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_hearts.png using Guid(49a09e4272810a84fa6a3a31f78fb844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8ed6a788341e2df2499f43ba490667') in 0.022275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012837 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.608 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2601.
-Total: 2.628300 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.057500 ms  DeleteObjects: 0.173000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_exclamation.png
+  artifactKey: Guid(e68ed13ad96f86143b1518bb19f779b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_exclamation.png using Guid(e68ed13ad96f86143b1518bb19f779b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847e42e928b9d13f4a65020b51902479') in 0.022334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009370 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2605.
-Total: 2.858600 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.144500 ms MarkObjects: 2.279800 ms  DeleteObjects: 0.176000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_swirl.png
+  artifactKey: Guid(85f48575353fce8449aaf8d0dfdc6032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_swirl.png using Guid(85f48575353fce8449aaf8d0dfdc6032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4167b626845f3d8d1ad4270ec1b4a9') in 0.021345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013945 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.355 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2609.
-Total: 2.796100 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.351200 ms  DeleteObjects: 0.156300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_sleep.png
+  artifactKey: Guid(f83a5f517766eaa43bcbea0cca505457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 2/emote_sleep.png using Guid(f83a5f517766eaa43bcbea0cca505457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d90c61d5f8ef61c5d78bc0f3021b2d') in 0.021842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009275 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.364 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2613.
-Total: 2.703100 ms (FindLiveObjects: 0.218300 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.216300 ms  DeleteObjects: 0.176700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 6.316097 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_alert.png
+  artifactKey: Guid(db5b01d32f5035c47a5ba7468ea3645e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_alert.png using Guid(db5b01d32f5035c47a5ba7468ea3645e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2327007121c76659915c9d8533b9c5a5') in 0.022896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013439 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.339 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2617.
-Total: 2.691500 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.197600 ms  DeleteObjects: 0.184100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_cash.png
+  artifactKey: Guid(05df1f9fa4c60204ba5cb347b37e3a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_cash.png using Guid(05df1f9fa4c60204ba5cb347b37e3a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536ea556e8f63482fde2ba74bd941f71') in 0.023655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008123 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2621.
-Total: 2.727900 ms (FindLiveObjects: 0.235600 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.239600 ms  DeleteObjects: 0.171200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_cross.png
+  artifactKey: Guid(b049048fd180d1946a79cb2979ea9f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_cross.png using Guid(b049048fd180d1946a79cb2979ea9f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d89924820a81fca0464e29736844c1') in 0.020287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013701 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.227 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2625.
-Total: 6.374200 ms (FindLiveObjects: 0.419100 ms CreateObjectMapping: 0.172900 ms MarkObjects: 5.519700 ms  DeleteObjects: 0.260700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_dots3.png
+  artifactKey: Guid(8bdd83f5aceeeef42bbd841fba86ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_dots3.png using Guid(8bdd83f5aceeeef42bbd841fba86ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee232fa1eac43056a8c1454e3c9c8b8') in 0.021648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008136 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.357 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2629.
-Total: 2.838000 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.359300 ms  DeleteObjects: 0.161200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_faceHappy.png
+  artifactKey: Guid(74a4f3c4a7e01594ebcde8fafe9d1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_faceHappy.png using Guid(74a4f3c4a7e01594ebcde8fafe9d1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea346d2926dd881ddf4b2caade272230') in 0.022392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010531 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.369 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2633.
-Total: 2.692700 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.228800 ms  DeleteObjects: 0.150100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_heart.png
+  artifactKey: Guid(bd172b4be27d72a458d303a2e221f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_heart.png using Guid(bd172b4be27d72a458d303a2e221f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8846621c35413b67254081ba14bb8eac') in 0.020755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009217 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2637.
-Total: 2.782000 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.315700 ms  DeleteObjects: 0.166200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_music.png
+  artifactKey: Guid(2e98200b6c9204546bd2f83c88249f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_music.png using Guid(2e98200b6c9204546bd2f83c88249f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f004866ce1727afaae339e64f0c360f0') in 0.025881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.333 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2641.
-Total: 2.582700 ms (FindLiveObjects: 0.209700 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.059800 ms  DeleteObjects: 0.227900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_star.png
+  artifactKey: Guid(3f589be14e3f58b43a4d691dc219b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_star.png using Guid(3f589be14e3f58b43a4d691dc219b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e286e5add1560f3140bedac60b10557') in 0.021707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007880 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.463 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2645.
-Total: 2.857900 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.307500 ms  DeleteObjects: 0.174800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009062 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2649.
-Total: 2.944700 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.482900 ms  DeleteObjects: 0.182400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011440 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.475 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2653.
-Total: 2.570100 ms (FindLiveObjects: 0.214600 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.103000 ms  DeleteObjects: 0.166500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.434 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2657.
-Total: 3.616800 ms (FindLiveObjects: 0.536500 ms CreateObjectMapping: 0.206700 ms MarkObjects: 2.716400 ms  DeleteObjects: 0.155700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008431 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.453 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2661.
-Total: 3.163500 ms (FindLiveObjects: 0.441600 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.373700 ms  DeleteObjects: 0.218300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009381 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.447 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.4 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2665.
-Total: 4.978200 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.234700 ms MarkObjects: 4.314300 ms  DeleteObjects: 0.221900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016800 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.4 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2669.
-Total: 3.219200 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.251200 ms  DeleteObjects: 0.584500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011203 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.423 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.4 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2673.
-Total: 2.685900 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.086500 ms MarkObjects: 2.210700 ms  DeleteObjects: 0.170200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010022 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.358 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.4 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 2.808200 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.239500 ms  DeleteObjects: 0.255100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008422 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.494 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.4 MB.
-System memory in use after: 99.4 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 2.860000 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.383200 ms  DeleteObjects: 0.167300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.4 MB.
-System memory in use after: 58.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 3.504900 ms (FindLiveObjects: 0.225300 ms CreateObjectMapping: 0.098600 ms MarkObjects: 3.043600 ms  DeleteObjects: 0.135900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_swirl.png
+  artifactKey: Guid(85bba441a73b2ac4a8d88483ebb9bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kenney_emotespack +-+/PNG/Vector/Style 3/emote_swirl.png using Guid(85bba441a73b2ac4a8d88483ebb9bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3514b8db8157af730a37d9d793b199fe') in 0.041221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
