@@ -111,7 +111,7 @@ public class Field : MonoBehaviour
 
         this.transform.position = new Vector3(0, 0, 0);
 
-        //Создание поля
+        //РЎРѕР·РґР°РЅРёРµ РїРѕР»СЏ
         for (int j = 0; j < sizeY; j++)
         {
             for (int i = 0; i < sizeX; i++)
@@ -126,7 +126,7 @@ public class Field : MonoBehaviour
             }
         }
 
-        //Создание врагов на поле
+        //РЎРѕР·РґР°РЅРёРµ РІСЂР°РіРѕРІ РЅР° РїРѕР»Рµ
         int enemiesCount = Convert.ToInt32(levelsXml.DocumentElement.SelectSingleNode($"/levels/level{currentLevel}/enemies").Attributes["count"].InnerText);
         for (int i = 0; i < enemiesCount; i++)
         {
